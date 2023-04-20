@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import ServiceOne from '@/components/dropdown_folder/service-1'
+import ServiceTwo from '@/components/dropdown_folder/service-2'
+import ServiceThree from '@/components/dropdown_folder/service-3'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -8,6 +12,21 @@ const routes = [
     path: '/',
     component: () => import('../views/index.vue')
   },
+  {
+    path:'/services/service-1',
+    name: 'ServiceOne',
+    component: ServiceOne
+  },
+  {
+    path: '/services/service-2',
+    name: 'ServiceTwo',
+    component: ServiceTwo
+  },
+  {
+    path: '/services/service-3',
+    name: 'ServiceThree',
+    component: ServiceThree
+  }
   /*{
     path: '/index-1',
     name: 'Index-1',

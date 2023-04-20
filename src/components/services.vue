@@ -25,7 +25,7 @@
                 </span>
               </div>
             </div>
-            <h3 class>Why Choose Us ?</h3>
+            <h3 class>Why Work With Us?</h3>
             <p
               class="text-muted mb-4"
             >Nam libero tempore cum soluta as nobis est eligendi optio cumque nihile impedite quo minus id quod maxime.</p>
@@ -39,7 +39,7 @@
                 <div class="wc-box-icon">
                   <i class="mdi mdi-collage"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Esay To Use</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service 1</h5>
                 <p
                   class="text-muted mb-0 font-size-15 wc-subtitle"
                 >Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
@@ -48,7 +48,7 @@
                 <div class="wc-box-icon">
                   <i class="mdi mdi-trending-up"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Grow Your Revenue</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service 2</h5>
                 <p
                   class="text-muted mb-0 font-size-15 wc-subtitle"
                 >Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
@@ -59,7 +59,7 @@
                 <div class="wc-box-icon">
                   <i class="mdi mdi-security"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Analytics Security</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service 3</h5>
                 <p
                   class="text-muted mb-0 font-size-15 wc-subtitle"
                 >Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
@@ -68,7 +68,7 @@
                 <div class="wc-box-icon">
                   <i class="mdi mdi-database-lock"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Data Privacy</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service 4</h5>
                 <p
                   class="text-muted mb-0 font-size-15 wc-subtitle"
                 >Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>

@@ -6,6 +6,7 @@ import {
   LinkedinIcon,
   ArrowRightCircleIcon
 } from "vue-feather-icons";
+import servicesDropdown from "../components/services-dropdown.vue";
 
 export default {
   props: {
