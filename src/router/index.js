@@ -1,10 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import ServiceOne from '@/components/dropdown_folder/service-1'
-import ServiceTwo from '@/components/dropdown_folder/service-2'
-import ServiceThree from '@/components/dropdown_folder/service-3'
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -13,50 +9,35 @@ const routes = [
     component: () => import('../views/index.vue')
   },
   {
-    path:'/services/service-1',
-    name: 'ServiceOne',
-    component: ServiceOne
+    path: '/our-story',
+    name: 'OurStory',
+    component: () => import('../views/our-story.vue')
   },
   {
-    path: '/services/service-2',
-    name: 'ServiceTwo',
-    component: ServiceTwo
+    path: '/cooling',
+    name: 'Cooling',
+    component: () => import('../views/cooling.vue')
   },
   {
-    path: '/services/service-3',
-    name: 'ServiceThree',
-    component: ServiceThree
-  }
-  /*{
-    path: '/index-1',
-    name: 'Index-1',
-    component: () => import('../views/index1.vue')
+    path: '/heating',
+    name: 'Heating',
+    component: () => import('../views/heating.vue')
   },
   {
-    path: '/index-2',
-    name: 'Index-2',
-    component: () => import('../views/index2.vue')
+    path: '/maintenance',
+    name: 'Maintenance',
+    component: () => import('../views/maintenance.vue')
   },
   {
-    path: '/index-3',
-    name: 'Index-3',
-    component: () => import('../views/index3.vue')
+    path: '/other-services',
+    name: 'OtherServices',
+    component: () => import('../views/other-services.vue')
   },
   {
-    path: '/index-4',
-    name: 'Index-4',
-    component: () => import('../views/index4.vue')
+    path:'/contact-us',
+    name: 'ContactUs',
+    component: () => import('../views/contact-us.vue')
   },
-  {
-    path: '/index-5',
-    name: 'Index-5',
-    component: () => import('../views/index5.vue')
-  },
-  {
-    path: '/index-6',
-    name: 'Index-6',
-    component: () => import('../views/index6.vue')
-  }*/
 ]
 
 const router = new VueRouter({

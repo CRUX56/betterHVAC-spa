@@ -8,5 +8,7 @@ export default {
 </script>
 
 <template>
-    <Navbar />
-</template>
+    <div>
+        <Navbar />
+        <Footer />
+    </div>
