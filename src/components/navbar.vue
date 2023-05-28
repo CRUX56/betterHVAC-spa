@@ -7,6 +7,10 @@ import {
   ArrowRightCircleIcon
 } from "vue-feather-icons";
 
+import AppDropdown from "./appDropdown.vue";
+import AppDropdownContent from "./appDropdownContent.vue";
+import AppDrowdownItem from "./appDropdownitem.vue";
+
 export default {
   props: {
     navbarcolor: {
@@ -19,7 +23,10 @@ export default {
     TwitterIcon,
     InstagramIcon,
     LinkedinIcon,
-    ArrowRightCircleIcon
+    ArrowRightCircleIcon,
+    AppDropdown,
+    AppDropdownContent,
+    AppDrowdownItem
   },
   mounted: () => {
     window.onscroll = function() {
@@ -82,11 +89,19 @@ export default {
             >Services</a>
           </li>
           <li class="nav-item">
-            <a
-              href="javascript: void(0);"
-              v-scroll-to="{ el:'#pricing', offset: -2}"
-              class="nav-link"
-            >About Us</a>
+            <AppDropdown>
+              <a
+                href="javascript: void(0);"
+                v-scroll-to="{ el:'#pricing', offset: -2}"
+                class="nav-link"
+                slot="toggler"
+              >About Us</a>
+              <AppDropdownContent>
+                <AppDropdownItem>Action 1</AppDropdownItem>
+                <AppDropdownItem>Action 2</AppDropdownItem>
+                <AppDropdownItem>Action 3</AppDropdownItem>
+              </AppDropdownContent>
+            </AppDropdown>
           </li>
           <li class="nav-item">
             <a
