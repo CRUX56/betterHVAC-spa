@@ -23,6 +23,7 @@
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/bootstrap";
 @import '~bootstrap-vue/src/index.scss';
+@import 'tiny-slider/src/tiny-slider';
 
 @import "variables";
 @import "general";
@@ -37,3 +38,4 @@
 @import "contact";
 @import "footer";
 @import "modal";
+@import "testimonials";

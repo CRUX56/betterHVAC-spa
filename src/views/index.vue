@@ -2,6 +2,7 @@
 import Navbar from "@/components/navbar";
 import Service from "@/components/services";
 import Features from "@/components/features";
+import Testimonials from "@/components/testimonial";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 
@@ -9,7 +10,7 @@ import Footer from "@/components/footer";
  * Index-4
  */
 export default {
-  components: { Navbar, Service, Features, Contact, Footer }
+  components: { Navbar, Service, Features, Testimonials, Contact, Footer }
 };
 </script>
 
@@ -83,6 +84,7 @@ export default {
       <!-- Hero End -->
       <Service />
       <Features />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>
