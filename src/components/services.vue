@@ -1,6 +1,6 @@
 <template>
   <!-- Why Choose Us Start -->
-  <section class="section">
+  <section class="section" id="services">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-4">

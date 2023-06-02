@@ -9,7 +9,7 @@ import {
 
 import AppDropdown from "./appDropdown.vue";
 import AppDropdownContent from "./appDropdownContent.vue";
-import AppDrowdownItem from "./appDropdownitem.vue";
+import AppDropdownItem from "./appDropdownitem.vue";
 
 export default {
   props: {
@@ -26,7 +26,7 @@ export default {
     ArrowRightCircleIcon,
     AppDropdown,
     AppDropdownContent,
-    AppDrowdownItem
+    AppDropdownItem
   },
   mounted: () => {
     window.onscroll = function() {
@@ -65,7 +65,7 @@ export default {
     <div class="container">
       <!-- LOGO -->
       <a class="navbar-brand logo" href="/">
-        <img src="@/assets/images/logo.png" alt class="logo-dark" height="24" />
+        <img src="@/assets/images/better-hvac-logo.png" alt class="logo-dark" height="24" />
         <!--<img src="@/assets/images/logo-light.png" alt class="logo-light" height="24" />-->
       </a>
       <button
@@ -82,31 +82,39 @@ export default {
             <a href="javascript: void(0);" v-scroll-to="'#home'" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a
+            <AppDropdown>
+              <a
               href="javascript: void(0);"
-              v-scroll-to="{ el: '#features', offset: -2}"
+              v-scroll-to="{ el: '#services', offset: -2}"
               class="nav-link"
-            >Services</a>
+              slot="toggler"
+              >Services</a>
+              <AppDropdownContent>
+                <AppDropdownItem :slug="{path: 'Cooling'}">Cooling</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'Cooling'}">Heating</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'Cooling'}">Maintenance</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'Cooling'}">Other Services</AppDropdownItem>
+              </AppDropdownContent>
+            </AppDropdown>
           </li>
           <li class="nav-item">
             <AppDropdown>
               <a
                 href="javascript: void(0);"
-                v-scroll-to="{ el:'#pricing', offset: -2}"
+                v-scroll-to="{ el:'#features', offset: -2}"
                 class="nav-link"
                 slot="toggler"
               >About Us</a>
               <AppDropdownContent>
-                <AppDropdownItem>Action 1</AppDropdownItem>
-                <AppDropdownItem>Action 2</AppDropdownItem>
-                <AppDropdownItem>Action 3</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'Cooling'}">Our Story</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'Cooling'}">Contact Us</AppDropdownItem>
               </AppDropdownContent>
             </AppDropdown>
           </li>
           <li class="nav-item">
             <a
               href="javascript: void(0);"
-              v-scroll-to="{ el:'#blog', offset: -1}"
+              v-scroll-to="{ el:'#testimonials', offset: -1}"
               class="nav-link"
             >Testimonials</a>
           </li>

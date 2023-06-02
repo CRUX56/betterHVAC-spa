@@ -23,7 +23,7 @@ export default {
         <div class="row">
           <div class="col-lg-4">
             <div class="mb-5">
-              <img src="@/assets/images/logo-light.png" alt class height="24" />
+              <img src="@/assets/images/better-hvac-logo.png" alt class height="24" />
               <p class="text-white-50 my-4 font-size-15">
                 Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum
                 ante ipsum primis in faucibus ultrices posuere cubilia.

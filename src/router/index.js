@@ -6,17 +6,22 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    component: () => import('../views/index.vue')
+    component: () => import('../views/index.vue'),
+    props: true
   },
   {
     path: '/our-story',
     name: 'OurStory',
-    component: () => import('../views/our-story.vue')
+    component: () => import('../views/our-story.vue'),
+    props: true
   },
   {
-    path: '/cooling',
-    name: 'Cooling',
-    component: () => import('../views/cooling.vue')
+    path: '/services/:slug', ///cooling
+    name: 'Cooling', //Cooling
+    component: () => import('../views/cooling.vue'),
+    //props: true
+    props: true
+    //props: path => ({ link: () => import('../views/cooling.vue')})
   },
   {
     path: '/heating',

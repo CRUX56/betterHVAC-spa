@@ -1,20 +1,23 @@
 <!--Contain the whole dropdown component-->
 <script>
     import { mixin as clickaway } from 'vue-clickaway';
-
+    
     export default {
         name: 'AppDropdown',
         mixins: [ clickaway ],
         provide () {
             return {
-                sharedState: this.sharedState
+                sharedState: this.sharedState,
+                //path: this.path
+                //slug: this.slug
             }
-        },
+        }, 
         data () {
             return {
                 sharedState: {
                     active: false
-                }
+                },
+                //slug: this.$route.params.slug
             }
         },
         methods: {
