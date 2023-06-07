@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+const coolingService = () => import('../views/cooling.vue');
+const heatingService = () => import('../views/heating.vue');
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -16,17 +19,20 @@ const routes = [
     props: true
   },
   {
-    path: '/services/:slug', ///cooling
+    path: '/services/cooling', ///cooling :slug
     name: 'Cooling', //Cooling
-    component: () => import('../views/cooling.vue'),
-    //props: true
+    component: coolingService,
     props: true
+    //component: () => import('../views/cooling.vue'),
+    //props: true
+    
     //props: path => ({ link: () => import('../views/cooling.vue')})
   },
   {
-    path: '/heating',
+    path: '/services/heating',
     name: 'Heating',
-    component: () => import('../views/heating.vue')
+    component: heatingService,
+    props: true
   },
   {
     path: '/maintenance',

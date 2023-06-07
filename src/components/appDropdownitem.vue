@@ -6,20 +6,21 @@
                 type: Object,
                 required: true
             }
-        }/*
-        computed() {
-          return this.$router.push({
-                name: this.name,
+        },
+        data: function() {
+        //Removing the bottom from the function will make the link work but only on the top lvl service
+          return () => this.$router.push({
+                name: this.slug.name, //this.slug.name
                 params: {
-                    slug: this.path
+                    link: this.slug.path
                 }
             })
-        }*/
+        }
     }
 </script>
 
 <template>
-    <a :href="this.slug" class="">
+    <a :href="this.slug.path" class="">
         <slot/>
     </a>
     <!--<a :href="$route.component" class="">

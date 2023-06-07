@@ -90,8 +90,9 @@ export default {
               slot="toggler"
               >Services</a>
               <AppDropdownContent>
-                <AppDropdownItem :slug="{path: 'Cooling'}">Cooling</AppDropdownItem>
-                <AppDropdownItem :slug="{name: 'Cooling'}">Heating</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'Cooling'}">Cooling</AppDropdownItem>
+                <!--<AppDropdownItem :slug="{path: '/services/cooling'}">Cooling</AppDropdownItem>-->
+                <AppDropdownItem :slug="{name: 'Heating'}">Heating</AppDropdownItem>
                 <AppDropdownItem :slug="{name: 'Cooling'}">Maintenance</AppDropdownItem>
                 <AppDropdownItem :slug="{name: 'Cooling'}">Other Services</AppDropdownItem>
               </AppDropdownContent>
