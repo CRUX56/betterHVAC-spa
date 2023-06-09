@@ -79,7 +79,11 @@ export default {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mx-auto navbar-center" id="mySidenav" v-scroll-spy-active>
           <li class="nav-item">
-            <a href="javascript: void(0);" v-scroll-to="'#home'" class="nav-link">Home</a>
+            <a href="javascript: void(0);" v-scroll-to="'#home'" class="nav-link">
+              <router-link :to="{name: 'indexLink'}">
+                Home
+              </router-link>
+            </a>
           </li>
           <li class="nav-item">
             <AppDropdown>
@@ -90,11 +94,11 @@ export default {
               slot="toggler"
               >Services</a>
               <AppDropdownContent>
-                <AppDropdownItem :slug="{name: 'Cooling'}">Cooling</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'cooling'}">Cooling</AppDropdownItem>
                 <!--<AppDropdownItem :slug="{path: '/services/cooling'}">Cooling</AppDropdownItem>-->
-                <AppDropdownItem :slug="{name: 'Heating'}">Heating</AppDropdownItem>
-                <AppDropdownItem :slug="{name: 'Cooling'}">Maintenance</AppDropdownItem>
-                <AppDropdownItem :slug="{name: 'Cooling'}">Other Services</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'heating'}">Heating</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'maintenance'}">Maintenance</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'otherServices'}">Other Services</AppDropdownItem>
               </AppDropdownContent>
             </AppDropdown>
           </li>
@@ -107,8 +111,8 @@ export default {
                 slot="toggler"
               >About Us</a>
               <AppDropdownContent>
-                <AppDropdownItem :slug="{name: 'Cooling'}">Our Story</AppDropdownItem>
-                <AppDropdownItem :slug="{name: 'Cooling'}">Contact Us</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'ourStory'}">Our Story</AppDropdownItem>
+                <AppDropdownItem :slug="{name: 'contactUs'}">Contact Us</AppDropdownItem>
               </AppDropdownContent>
             </AppDropdown>
           </li>
@@ -117,14 +121,22 @@ export default {
               href="javascript: void(0);"
               v-scroll-to="{ el:'#testimonials', offset: -1}"
               class="nav-link"
-            >Testimonials</a>
+            >
+            <router-link :to="{name: 'testimonials'}">
+              Testimonials
+            </router-link>
+          </a>
           </li>
           <li class="nav-item">
             <a
               href="javascript: void(0);"
               v-scroll-to="{ el:'#contact', offset:-50}"
               class="nav-link"
-            >Contact Us</a>
+            >
+            <router-link :to="{name: 'contactUs'}">
+              Contact Us
+            </router-link>
+          </a>
           </li>
         </ul>
         <!--<ul class="navbar-nav navbar-center">
