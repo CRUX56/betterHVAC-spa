@@ -5,6 +5,7 @@ import {
   InstagramIcon,
   LinkedinIcon
 } from "vue-feather-icons";
+
 export default {
   components: {
     FacebookIcon,
@@ -55,61 +56,66 @@ export default {
           <div class="col-lg-7 offset-lg-1">
             <div class="row">
               <div class="col-md-4">
-                <h6 class="text-white text-uppercase mb-4">About Us</h6>
+                <h6 class="text-white text-uppercase mb-4">Services</h6>
                 <ul class="list-unstyled footer-sub-menu">
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Works</a>
+                    <a href="javascript: void(0);" class="footer-link">
+                      <router-link :to="{name: 'cooling'}">Cooling</router-link>
+                    </a>
                   </li>
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Strategy</a>
+                    <a href="javascript: void(0);" class="footer-link">
+                      <router-link :to="{name: 'heating'}">Heating</router-link>
+                    </a>
                   </li>
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Releases</a>
+                    <a href="javascript: void(0);" class="footer-link">
+                      <router-link :to="{name: 'maintenance'}">Maintenance</router-link>
+                    </a>
                   </li>
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Press</a>
-                  </li>
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Mission</a>
+                    <a href="javascript: void(0);" class="footer-link">
+                      <router-link :to="{name: 'otherServices'}">Other Services</router-link>
+                    </a>
                   </li>
                 </ul>
               </div>
               <div class="col-md-4">
-                <h6 class="text-white text-uppercase mb-3">Customers</h6>
+                <h6 class="text-white text-uppercase mb-3">About Us</h6>
                 <ul class="list-unstyled footer-sub-menu">
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Tranding</a>
+                    <a href="javascript: void(0);" class="footer-link">
+                      <router-link :to="{name: 'ourStory'}">Our Story</router-link>
+                    </a>
                   </li>
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Popular</a>
-                  </li>
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Customers</a>
-                  </li>
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Features</a>
+                    <a href="javascript: void(0);" class="footer-link">
+                      <router-link :to="{name: 'contactUs'}">Contact Us</router-link>
+                    </a>
                   </li>
                 </ul>
               </div>
               <div class="col-md-4">
-                <h6 class="text-white text-uppercase mb-3">Support</h6>
-                <ul class="list-unstyled footer-sub-menu">
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Developers</a>
-                  </li>
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Support</a>
-                  </li>
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Customer Service</a>
-                  </li>
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Get Started</a>
-                  </li>
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Guide</a>
-                  </li>
-                </ul>
+                <!--
+                  <h6 class="text-white text-uppercase mb-3">Support</h6>
+                    <ul class="list-unstyled footer-sub-menu">
+                      <li>
+                        <a href="javascript: void(0);" class="footer-link">Developers</a>
+                      </li>
+                      <li>
+                        <a href="javascript: void(0);" class="footer-link">Support</a>
+                      </li>
+                      <li>
+                        <a href="javascript: void(0);" class="footer-link">Customer Service</a>
+                      </li>
+                      <li>
+                        <a href="javascript: void(0);" class="footer-link">Get Started</a>
+                      </li>
+                      <li>
+                        <a href="javascript: void(0);" class="footer-link">Guide</a>
+                      </li>
+                    </ul>
+                -->
               </div>
             </div>
           </div>
