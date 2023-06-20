@@ -22,10 +22,9 @@ export default {
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <div class="text-center mb-5">
-              <h3 class="title mb-3">Awesome Features</h3>
+              <h3 class="title mb-3">Lorem ipsum dolor sit amet</h3>
               <p class="text-muted font-size-15">
-                Et harum quidem rerum facilis est et expedita distinctio nam libero
-                tempore cum soluta nobis eligendi cumque.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum arcu nibh, ut tristique purus rutrum ut.
               </p>
             </div>
           </div>
@@ -40,14 +39,10 @@ export default {
 
           <div class="col-lg-5 offset-lg-1">
             <p class="font-weight-medium text-uppercase mb-2">
-              <i class="mdi mdi-chart-bubble h2 text-primary mr-1 align-middle"></i> Creative Features
+              <i class="mdi mdi-chart-bubble h2 text-primary mr-1 align-middle"></i> Duis sit amet 
             </p>
             <h3 class="font-weight-semibold line-height-1_4 mb-4">
-              Build
-              <b>community</b> &
-              <b>conversion</b> with our
-              suite of
-              <b>social tool</b>
+              Praesent auctor tincidunt interdum. Nunc quis facilisis elit, sed bibendum mauris.
             </h3>
             <p class="text-muted font-size-15 mb-4">
               Temporibus autem quibusdam et aut officiis debitis aut rerum a

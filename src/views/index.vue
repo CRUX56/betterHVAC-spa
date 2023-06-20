@@ -21,7 +21,7 @@ export default {
       <!-- Hero Start -->
       <section
         class="hero-4-bg"
-        :style="{'background-image': 'url(' + require('@/assets/images/hero-4-bg.jpg') + ')'}"
+        :style="{'background-image': 'url(' + require('@/assets/images/homepage-banner-image.jpg') + ')'}"
         id="home"
       >
         <div class="container">

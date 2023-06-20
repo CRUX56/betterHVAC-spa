@@ -43,7 +43,7 @@ export default {
         <div>
             <section 
               class="hero-4-bg" 
-              :style="{'background-image': 'url(' + require('@/assets/images/hero-4-bg.jpg') + ')'}" 
+              :style="{'background-image': 'url(' + require('@/assets/images/cooling-banner.jpg') + ')'}" 
               id="home">
               <!--Header section-->
               <div class="container">
