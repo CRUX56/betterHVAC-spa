@@ -28,17 +28,17 @@ export default {
           <div class="row align-items-center justify-content-center">
             <div class="col-xl-6 col-lg-7">
               <h2 class="hero-4-title mb-4 text-shadow line-height-1_4">
-                Get Your Professional Website Done With
-                <span class="text-bottom-border">Lezir</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                <span class="text-bottom-border">Proin</span>
               </h2>
               <p
                 class="text-muted"
-              >Donec pede justo fringilla vel aliquet nec vulputate eget arcu in enim bibendum must explain you how sitye all this mistaken.</p>
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu finibus mi. Cras elit mauris, egestas ut dolor quis, lacinia tincidunt magna. Integer turpis mi, posuere et gravida in, auctor sit amet urna.</p>
               <button class="btn btn-primary mt-4">Get Started</button>
             </div>
             <div class="col-xl-4 offset-xl-2 col-lg-5 col-md-8">
               <div class="hero-4-registration-form mx-auto rounded bg-white mt-5 mt-lg-0">
-                <h5 class="form-title mb-4 text-center">Get 30 days FREE Trial</h5>
+                <h5 class="form-title mb-4 text-center">Get A Free HVAC Quote Today</h5>
                 <div class="form-border w-25 mx-auto mb-4"></div>
                 <form class="registration-form">
                   <div class="form-group mb-4">
@@ -62,7 +62,7 @@ export default {
                       placeholder
                     />
                   </div>
-                  <div class="form-group mb-4">
+                  <!--<div class="form-group mb-4">
                     <label for="exampleFormControlInput1" class="text-muted font-size-15">Password*</label>
                     <input
                       type="password"
@@ -70,7 +70,7 @@ export default {
                       id="exampleFormControlInput3"
                       placeholder
                     />
-                  </div>
+                  </div>-->
                   <button
                     type="submit"
                     class="btn btn-primary btn-block btn-sm text-uppercase"
