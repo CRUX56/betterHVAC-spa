@@ -16,13 +16,13 @@ export default {
     <section
       class="section bg-light feather-bg-img"
       :style="{'background-image': 'url(' + require('@/assets/images/features-bg-img.png') + ')'}"
-      id="features"
+      id="about"
     >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <div class="text-center mb-5">
-              <h3 class="title mb-3">Lorem ipsum dolor sit amet</h3>
+              <h3 class="title mb-3">About Better HVAC, LLC</h3>
               <p class="text-muted font-size-15">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum arcu nibh, ut tristique purus rutrum ut.
               </p>
@@ -42,8 +42,16 @@ export default {
               <i class="mdi mdi-chart-bubble h2 text-primary mr-1 align-middle"></i> Duis sit amet 
             </p>
             <h3 class="font-weight-semibold line-height-1_4 mb-4">
-              Praesent auctor tincidunt interdum. Nunc quis facilisis elit, sed bibendum mauris.
+              How Better HVAC, LLC Qualifies to Serve You
             </h3>
+            <ul>
+              <li class="text-muted">NC HVAC Licensed</li>
+              <li class="text-muted">Fully Insured</li>
+              <li class="text-muted">Fully Bonded</li>
+              <li class="text-muted">OSHA Compliant – Safety First</li>
+              <li class="text-muted">Fully Accredited by the Better Business Bureau</li>
+            </ul>
+            <!--
             <p class="text-muted font-size-15 mb-4">
               Temporibus autem quibusdam et aut officiis debitis aut rerum a
               necessitatibus saepe eveniet ut et voluptates repudiandae sint molestiae non recusandae itaque.
@@ -53,10 +61,12 @@ export default {
             </p>
             <p class="text-muted">
               <life-buoy-icon class="icon-xs mr-1"></life-buoy-icon>Cras ultricies mi eu turpis hendrerit fringilla.
-            </p>
+            </p>-->
             <div class="mt-5">
-              <a href="javascript: void(0);" class="btn btn-primary mr-2">Read More</a>
-              <a href="javascript: void(0);" class="btn btn-soft-primary">Buy Now</a>
+              <router-link :to="{name: 'ourStory'}">
+                <a href="javascript: void(0);" class="btn btn-primary mr-2">Read More</a>
+              </router-link>
+              <!--<a href="javascript: void(0);" class="btn btn-soft-primary">Buy Now</a>-->
             </div>
           </div>
         </div>

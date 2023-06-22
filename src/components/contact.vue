@@ -5,7 +5,8 @@ import {
   LinkIcon,
   PhoneCallIcon,
   ClockIcon,
-  MapPinIcon
+  MapPinIcon,
+  AlertTriangleIcon
 } from "vue-feather-icons";
 export default {
   components: {
@@ -14,7 +15,8 @@ export default {
     LinkIcon,
     PhoneCallIcon,
     ClockIcon,
-    MapPinIcon
+    MapPinIcon,
+    AlertTriangleIcon
   }
 };
 </script>
@@ -25,10 +27,9 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="text-center mb-5">
-            <h3 class="title mb-3">Contact Us</h3>
+            <h3 class="title mb-3">How May We Help?</h3>
             <p class="text-muted font-size-15">
-              Et harum quidem rerum facilis est et expedita distinctio nam libero tempore
-              cum soluta nobis eligendi cumque.
+              Call or Text us at <a href="tel:704-985-4972" target="_self">(704) 985-4972</a> <br/>Fill out the form – we will respond within <strong>24 business hours</strong>.
             </p>
           </div>
         </div>
@@ -81,23 +82,23 @@ export default {
           <div class="contact-detail text-muted ml-lg-5">
             <p class>
               <mail-icon class="icon-xs icon mr-1"></mail-icon>:
-              <span>support@website.com</span>
-            </p>
-            <p class>
-              <LinkIcon class="icon-xs icon mr-1"></LinkIcon>:
-              <span>www.website.com</span>
+              <span><a href="mailto:contactus@betterhvac.net">contactus@betterhvac.net</a></span>
             </p>
             <p class>
               <PhoneCallIcon class="icon-xs icon mr-1"></PhoneCallIcon>:
-              <span>(+001) 123 456 7890</span>
+              <span><a href="tel:704-985-4972">(704) 985-4972</a></span>
             </p>
             <p class>
               <ClockIcon class="icon-xs icon mr-1"></ClockIcon>:
-              <span>9:00 AM - 6:00 PM</span>
+              <span>Monday-Friday 8am – 5pm (EST)</span>
+            </p>
+            <p class>
+              <AlertTriangleIcon class="icon-xs icon mr-1"></AlertTriangleIcon>:
+              <span>After Hours: Emergency, Saturday, and Sunday</span>
             </p>
             <p class>
               <MapPinIcon class="icon-xs icon mr-1"></MapPinIcon>:
-              <span>1644 Deer Ridge Drive Rochelle Park, NJ 07662</span>
+              <span>125 S. 5th St., Albemarle, NC 28001</span>
             </p>
           </div>
         </div>

@@ -106,7 +106,7 @@ export default {
             <AppDropdown>
               <a
                 href="javascript: void(0);"
-                v-scroll-to="{ el:'#features', offset: -2}"
+                v-scroll-to="{ el:'#about', offset: -2}"
                 class="nav-link"
                 slot="toggler"
               >About Us</a>

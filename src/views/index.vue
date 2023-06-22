@@ -28,12 +28,12 @@ export default {
           <div class="row align-items-center justify-content-center">
             <div class="col-xl-6 col-lg-7">
               <h2 class="hero-4-title mb-4 text-shadow line-height-1_4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                <span class="text-bottom-border">Proin</span>
+                WELCOME TO <br/>BETTER HVAC, LLC
+                <!--<span class="text-bottom-border">Proin</span>-->
               </h2>
-              <p
-                class="text-muted"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu finibus mi. Cras elit mauris, egestas ut dolor quis, lacinia tincidunt magna. Integer turpis mi, posuere et gravida in, auctor sit amet urna.</p>
+              <p class="text-light">
+                We are committed to provide you a high standard of Heating & Cooling services
+              </p>
               <button class="btn btn-primary mt-4">Get Started</button>
             </div>
             <div class="col-xl-4 offset-xl-2 col-lg-5 col-md-8">

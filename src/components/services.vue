@@ -25,11 +25,16 @@
                 </span>
               </div>
             </div>
-            <h3 class>Why Work With Us?</h3>
-            <p
-              class="text-muted mb-4"
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu finibus mi. Cras elit mauris, egestas ut dolor quis, lacinia tincidunt magna. Integer turpis mi, posuere et gravida in, auctor sit amet urna.</p>
-            <a href="javascript: void(0);" class="btn btn-outline-primary">Learn More</a>
+            <h3 class>OUR PROMISE</h3>
+            <p class="text-muted mb-4">
+              For honesty and dependability, join our many, well-satisfied customers. We would be happy to replace, repair, and maintain your Heating and Cooling systems for your best air comfort. Contact us today.
+            </p>
+            <p class="text-muted mb-4">
+              We enjoy having a large number of happy, long-time customers. We also maintain a large inventory of material and equipment to handle any customer project or emergency.
+            </p>
+            <router-link :to="{name: 'cooling'}">
+              <a href="javascript: void(0);" class="btn btn-outline-primary">Learn More</a>
+            </router-link>
           </div>
         </div>
         <div class="col-lg-8">
