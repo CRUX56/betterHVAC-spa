@@ -77,9 +77,11 @@ export default {
         <i class="mdi mdi-menu"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mx-auto navbar-center" id="mySidenav" v-scroll-spy-active>
+        <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
+          <!--v-scroll-spy-active-->
           <li class="nav-item">
-            <a href="javascript: void(0);" v-scroll-to="'#home'" class="nav-link">
+            <a href="javascript: void(0);" class="nav-link">
+              <!--v-scroll-to="'#home'"-->
               <router-link :to="{name: 'indexLink'}">
                 Home
               </router-link>
@@ -87,12 +89,7 @@ export default {
           </li>
           <li class="nav-item">
             <AppDropdown>
-              <a
-              href="javascript: void(0);"
-              v-scroll-to="{ el: '#services', offset: -2}"
-              class="nav-link"
-              slot="toggler"
-              >Services</a>
+              <a href="javascript: void(0);" class="nav-link" slot="toggler"><!--v-scroll-to="{ el: '#services', offset: -2}"-->Services</a>
               <AppDropdownContent>
                 <AppDropdownItem :slug="{name: 'cooling'}">Cooling</AppDropdownItem>
                 <!--<AppDropdownItem :slug="{path: '/services/cooling'}">Cooling</AppDropdownItem>-->
@@ -104,12 +101,7 @@ export default {
           </li>
           <li class="nav-item">
             <AppDropdown>
-              <a
-                href="javascript: void(0);"
-                v-scroll-to="{ el:'#about', offset: -2}"
-                class="nav-link"
-                slot="toggler"
-              >About Us</a>
+              <a href="javascript: void(0);" class="nav-link" slot="toggler"><!--v-scroll-to="{ el:'#about', offset: -2}"-->About Us</a>
               <AppDropdownContent>
                 <AppDropdownItem :slug="{name: 'ourStory'}">Our Story</AppDropdownItem>
                 <AppDropdownItem :slug="{name: 'contactUs'}">Contact Us</AppDropdownItem>
@@ -117,26 +109,20 @@ export default {
             </AppDropdown>
           </li>
           <li class="nav-item">
-            <a
-              href="javascript: void(0);"
-              v-scroll-to="{ el:'#testimonials', offset: -1}"
-              class="nav-link"
-            >
-            <router-link :to="{name: 'testimonials'}">
-              Testimonials
-            </router-link>
-          </a>
+            <a href="javascript: void(0);" class="nav-link">
+              <!--v-scroll-to="{ el:'#testimonials', offset: -1}"-->
+              <router-link :to="{name: 'testimonials'}">
+                Testimonials
+              </router-link>
+            </a>
           </li>
           <li class="nav-item">
-            <a
-              href="javascript: void(0);"
-              v-scroll-to="{ el:'#contact', offset:-50}"
-              class="nav-link"
-            >
-            <router-link :to="{name: 'contactUs'}">
-              Contact Us
-            </router-link>
-          </a>
+            <a href="javascript: void(0);" class="nav-link">
+              <!--v-scroll-to="{ el:'#contact', offset:-50}"-->
+              <router-link :to="{name: 'contactUs'}">
+                Contact Us
+              </router-link>
+            </a>
           </li>
         </ul>
         <!--<ul class="navbar-nav navbar-center">

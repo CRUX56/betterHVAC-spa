@@ -67,7 +67,7 @@ export default {
                             <p class="text-muted mb-4">
                                 Etiam ut volutpat ex, vel faucibus eros. Sed nec turpis in dui hendrerit lacinia id pellentesque elit. Donec at ligula tristique enim bibendum iaculis eget a elit. Morbi faucibus venenatis tincidunt. Etiam ut semper libero. Praesent pellentesque luctus justo id tincidunt. Nulla eget mi tellus. Fusce faucibus, ante a accumsan condimentum, ligula turpis sollicitudin neque, vitae consequat odio mauris ut tortor. Quisque ante lectus, congue cursus felis quis, auctor eleifend eros. Nulla laoreet ante eget congue scelerisque. Vivamus id mauris vel nibh volutpat ornare vestibulum a odio. Suspendisse lacinia leo nec ultrices interdum. Cras vitae elit sed nibh semper pulvinar.
                             </p>
-                            <contentAccordion          :service-accordion-array="serviceAccordionArray"></contentAccordion>
+                            <contentAccordion :service-accordion-array="serviceAccordionArray"></contentAccordion>
                         </div>
                     </div>
                 </div>

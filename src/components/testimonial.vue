@@ -42,7 +42,7 @@
                             Testimonials
                         </h3>
                         <p class="text-muted font-size-15">
-                            Lorem ipsum dolor sit amet, consectetuer nemo enim. Vestibulum molestie in odio rhoncus molestie.
+                            BetterHVAC testimonials highlight the exceptional service and satisfaction of customers who have experienced the expertise, reliability, and professionalism of the BetterHVAC company.
                         </p>
                     </div>
                 </div>
