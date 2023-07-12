@@ -50,7 +50,7 @@ export default {
                 <div class="row align-items-left">
                     <div class="col-xl-12 col-lg-12">
                         <h2 class="hero-4-title mb-4 text-shadow line-height-1_4">
-                            Page Title Or Service Title<br /> That Can Go Two Columns
+                            Maintenance
                         </h2>
                     </div>
                 </div>
@@ -60,9 +60,9 @@ export default {
                 <div class="container">
                     <div class="row align-items-left">
                         <div class="col-xl-12 col-lg-12">
-                            <h3>Cooling Title</h3>
+                            <h3>HVAC Maintenance</h3>
                             <p class="text-muted mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat nibh non viverra pulvinar. Nam lacinia, dolor at laoreet pellentesque, metus eros venenatis augue, eget tristique felis arcu et urna. Maecenas porttitor lobortis felis. Sed dictum et orci ut porttitor. Proin ultrices, leo sit amet consectetur tincidunt, nulla sapien elementum magna, quis venenatis mauris nulla eu leo. Nunc consequat sem libero, vel scelerisque orci dignissim a. Sed vitae justo sit amet urna semper semper. Pellentesque vestibulum finibus libero, sed varius justo gravida in. Vestibulum rhoncus at diam eget viverra.
+                                Better HVAC, LLC takes great pride in doing high quality work, with highly efficient materials, in a cost-effective manner.  Come join our growing list of happy customers.
                             </p>
                             <p class="text-muted mb-4">
                                 Etiam ut volutpat ex, vel faucibus eros. Sed nec turpis in dui hendrerit lacinia id pellentesque elit. Donec at ligula tristique enim bibendum iaculis eget a elit. Morbi faucibus venenatis tincidunt. Etiam ut semper libero. Praesent pellentesque luctus justo id tincidunt. Nulla eget mi tellus. Fusce faucibus, ante a accumsan condimentum, ligula turpis sollicitudin neque, vitae consequat odio mauris ut tortor. Quisque ante lectus, congue cursus felis quis, auctor eleifend eros. Nulla laoreet ante eget congue scelerisque. Vivamus id mauris vel nibh volutpat ornare vestibulum a odio. Suspendisse lacinia leo nec ultrices interdum. Cras vitae elit sed nibh semper pulvinar.

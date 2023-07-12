@@ -17,18 +17,43 @@ export default {
         return {
             serviceAccordionArray: [
                 {
-                    title: 'Service 1',
-                    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu finibus mi. Cras elit mauris, egestas ut dolor quis, lacinia tincidunt magna. Integer turpis mi, posuere et gravida in, auctor sit amet urna. Etiam tincidunt, lacus ut viverra lacinia, ante nulla euismod sapien, id tincidunt ipsum nunc et odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec interdum tellus at volutpat luctus. Integer nisl tortor, tristique sit amet ex ut, pharetra porta mi. Aenean sed arcu eget leo viverra commodo in lobortis lectus. Quisque non cursus purus. Suspendisse potenti. Proin eget nisi felis.',
+                    title: 'Heating Systems',
+                    content: 'BETTER HVAC installs and maintains High Quality, Money Saving,Highly Efficient, Heating Systems, the lifespan averages 30 years with less repair or maintnenance. We would like to add you to our growing list of satisfied customers!',
                     isOpen: false
                 },
                 {
-                    title: 'Service 2',
-                    content: 'Cras ultricies arcu a mi auctor, cursus rutrum mi elementum. Praesent eget tellus sed ex rutrum blandit ut id neque. Integer rhoncus lorem ut neque lobortis maximus efficitur in tellus. Quisque pharetra ullamcorper orci, at malesuada erat. Nunc gravida, libero vitae convallis varius, massa lectus porttitor libero, non rutrum urna magna a mauris. Nulla facilisi. Morbi mi lectus, tristique nec ipsum vitae, rutrum dapibus arcu. Pellentesque vel consequat ligula, vitae aliquam nulla. Vivamus euismod, justo quis commodo tristique, lacus massa rutrum tellus, quis imperdiet nisi est nec nisi. Nullam eget metus tellus. Nulla convallis lectus venenatis felis faucibus condimentum. Proin id dignissim est. Mauris sit amet enim nec mauris feugiat molestie.',
+                    title: 'Ventilation',
+                    content: 'BETTER HVAC installs and maintains proper Ventilation, using Filters, Air Vents, Air Exchange and Humidity Control when requested..',
                     isOpen: false
                 },
                 {
-                    title: 'Service 3',
-                    content: 'Curabitur est magna, pulvinar quis auctor non, commodo quis nisi. Maecenas tempor nibh et volutpat viverra. Integer eleifend luctus odio vitae auctor. Vivamus aliquet augue ipsum, at sodales tellus vestibulum ut. Praesent vulputate felis sit amet elit pharetra, suscipit lobortis nulla mollis. Vestibulum a lacinia est. Morbi non sollicitudin lorem. Aliquam at interdum elit. In et tincidunt sapien. Sed tellus arcu, tincidunt eget aliquam ut, efficitur ac ante. Donec fringilla nisi quis rutrum commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.',
+                    title: 'Gas lines HVAC,Firepits,etc.',
+                    content: 'BETTER HVAC installs and maintains Gas Lines for HVAC, Grills, Firepits and Generaors.Feel free to call us for an estimate!',
+                    isOpen: false
+                },
+                {
+                    title: 'Thermostats / Programmable Devices',
+                    content: 'BETTER HVAC installs and maintains Thermostat and Programmable Devices, so you can time, when and how long Heat and AC should run, for maximum savings and efficiency.',
+                    isOpen: false
+                },
+                {
+                    title: 'Inspections',
+                    content: 'BETTER HVAC Inspects your equipment initially and during regular Maintenance visits or as requested by you. We check, Temperature, Burn Efficiency, leaks,valve quality and needed cleaning.',
+                    isOpen: false
+                },
+                {
+                    title: 'Emergency Repairs-Motor, Compressor, Rerigerant Leaks',
+                    content: 'BETTER HVAC repairs, Motors,Compressors, Leaks, Refrigerant, Burners,etc.. We would like to add you to our growing list of satisfied customers!',
+                    isOpen: false
+                },
+                {
+                    title: 'Ducts / Insulation',
+                    content: 'BETTER HVAC installs and maintains Clean and Sealed Ductwork. With proper insulation and placement for little Heat and Cooling Loss. We would like to add you to our growing list of satisfied customers!',
+                    isOpen: false
+                },
+                {
+                    title: 'Maintenance',
+                    content: 'BETTER HVAC provides regular and scheduled Maintenance along with our Maintenance Contract. This insures less surprises and more uptime. We would like to add you to our growing list of satisfied customers!',
                     isOpen: false
                 }
             ]
@@ -50,7 +75,7 @@ export default {
                 <div class="row align-items-left">
                     <div class="col-xl-12 col-lg-12">
                         <h2 class="hero-4-title mb-4 text-shadow line-height-1_4">
-                            Page Title Or Service Title<br /> That Can Go Two Columns
+                            Air Conditioning
                         </h2>
                     </div>
                 </div>
@@ -59,15 +84,26 @@ export default {
             <section class="section" id="main-content">
                 <div class="container">
                     <div class="row align-items-left">
+                        <div class="col-xl-6 col-lg-6">
+                            <h3>Cooling</h3>
+                            <p class="text-muted mb-4">
+                                BETTER HVAC provides both New and Maintains Existing, Air Conditioning Systems, both Central and Wall. We would like to add you to our growing list of satisfied customers!
+                            </p>
+                            <p class="text-muted mb-4">
+                                BETTER HVAC specializes in both new installations and the maintenance of existing air conditioning systems, offering a comprehensive range of services. Whether you are in need of a brand new central air conditioning system or require maintenance and repairs for your existing unit, our skilled technicians are here to assist you. We understand the importance of a properly functioning air conditioning system, especially during hot summer months, and we are dedicated to ensuring your indoor comfort. With our expertise and commitment to customer satisfaction, we aim to exceed your expectations and deliver reliable, efficient, and cost-effective air conditioning solutions.
+                            </p>
+                            <p class="text-muted mb-4">
+                                Join our growing list of satisfied customers who have experienced the difference BETTER HVAC brings to their air conditioning needs. Our team is equipped with the knowledge and skills to handle any air conditioning project, big or small. From installation to maintenance and repairs, we prioritize quality workmanship and attention to detail to ensure your air conditioning system operates optimally. With BETTER HVAC, you can trust that you are receiving top-notch service from professionals who are passionate about providing the best possible air conditioning solutions for your home or business. Experience the comfort and reliability that comes with choosing BETTER HVAC for all your air conditioning needs.
+                            </p>
+                            
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <img src="../assets/images/about-us-aircon.jpg" alt="Cooling Air Conditioning"/>
+                        </div>
+                    </div>
+                    <div class="row align-items-left">
                         <div class="col-xl-12 col-lg-12">
-                            <h3>Cooling Title</h3>
-                            <p class="text-muted mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat nibh non viverra pulvinar. Nam lacinia, dolor at laoreet pellentesque, metus eros venenatis augue, eget tristique felis arcu et urna. Maecenas porttitor lobortis felis. Sed dictum et orci ut porttitor. Proin ultrices, leo sit amet consectetur tincidunt, nulla sapien elementum magna, quis venenatis mauris nulla eu leo. Nunc consequat sem libero, vel scelerisque orci dignissim a. Sed vitae justo sit amet urna semper semper. Pellentesque vestibulum finibus libero, sed varius justo gravida in. Vestibulum rhoncus at diam eget viverra.
-                            </p>
-                            <p class="text-muted mb-4">
-                                Etiam ut volutpat ex, vel faucibus eros. Sed nec turpis in dui hendrerit lacinia id pellentesque elit. Donec at ligula tristique enim bibendum iaculis eget a elit. Morbi faucibus venenatis tincidunt. Etiam ut semper libero. Praesent pellentesque luctus justo id tincidunt. Nulla eget mi tellus. Fusce faucibus, ante a accumsan condimentum, ligula turpis sollicitudin neque, vitae consequat odio mauris ut tortor. Quisque ante lectus, congue cursus felis quis, auctor eleifend eros. Nulla laoreet ante eget congue scelerisque. Vivamus id mauris vel nibh volutpat ornare vestibulum a odio. Suspendisse lacinia leo nec ultrices interdum. Cras vitae elit sed nibh semper pulvinar.
-                            </p>
-                            <contentAccordion          :service-accordion-array="serviceAccordionArray"></contentAccordion>
+                            <contentAccordion :service-accordion-array="serviceAccordionArray"></contentAccordion>
                         </div>
                     </div>
                 </div>

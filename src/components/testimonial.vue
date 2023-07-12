@@ -33,7 +33,8 @@
 
 <template>
 <!-- Testimonials start -->
-<section class="section bg-light feather-bg-img" :style="{'background-image': 'url(' + require('@/assets/images/features-bg-img.png') + ')'}" id="testimonials">
+<section class="section bg-dark feather-bg-img"  id="testimonials">
+    <!--:style=""{'background-image': 'url(' + require('@/assets/images/features-bg-img.png') + ')'}-->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">

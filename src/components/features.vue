@@ -13,11 +13,7 @@ export default {
 <template>
   <div>
     <!-- Features Start -->
-    <section
-      class="section bg-light feather-bg-img"
-      :style="{'background-image': 'url(' + require('@/assets/images/features-bg-img.png') + ')'}"
-      id="about"
-    >
+    <section class="section bg-light feather-bg-img" id="about">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
