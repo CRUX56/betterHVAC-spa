@@ -6,8 +6,9 @@ import {
   PhoneCallIcon,
   ClockIcon,
   MapPinIcon,
-  AlertTriangleIcon
+  AlertTriangleIcon,
 } from "vue-feather-icons";
+import axios from "axios";
 export default {
   components: {
     SendIcon,
@@ -16,8 +17,32 @@ export default {
     PhoneCallIcon,
     ClockIcon,
     MapPinIcon,
-    AlertTriangleIcon
-  }
+    AlertTriangleIcon,
+  },
+  data() {
+    return {
+      name: "",
+      email: "",
+      comments: "",
+    };
+  },
+  methods: {
+    submitForm() {
+      console.log("contact form clicked");
+      axios
+        .post("mailer", {
+          name: this.name,
+          email: this.email,
+          comments: this.comments,
+        })
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+  },
 };
 </script>
 <template>
@@ -29,7 +54,10 @@ export default {
           <div class="text-center mb-5">
             <h3 class="title mb-3">How May We Help?</h3>
             <p class="text-muted font-size-15">
-              Call or Text us at <a href="tel:704-985-4972" target="_self">(704) 985-4972</a> <br/>Fill out the form – we will respond within <strong>24 business hours</strong>.
+              Call or Text us at
+              <a href="tel:704-985-4972" target="_self">(704) 985-4972</a>
+              <br />Fill out the form – we will respond within
+              <strong>24 business hours</strong>.
             </p>
           </div>
         </div>
@@ -43,13 +71,23 @@ export default {
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="name">Name*</label>
-                    <input id="name" type="text" class="form-control" placeholder="Your name..." />
+                    <input
+                      id="name"
+                      type="text"
+                      class="form-control"
+                      placeholder="Your name..."
+                    />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="email">Email Address*</label>
-                    <input id="email" type="email" class="form-control" placeholder="Your email..." />
+                    <input
+                      id="email"
+                      type="email"
+                      class="form-control"
+                      placeholder="Your email..."
+                    />
                   </div>
                 </div>
               </div>
@@ -68,7 +106,7 @@ export default {
               </div>
               <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" id="submitForm" class="btn btn-primary">
                     Send Message
                     <send-icon class="icon-size-15 ml-2 icon"></send-icon>
                   </button>
@@ -82,7 +120,11 @@ export default {
           <div class="contact-detail text-muted ml-lg-5">
             <p class>
               <mail-icon class="icon-xs icon mr-1"></mail-icon>:
-              <span><a href="mailto:contactus@betterhvac.net">contactus@betterhvac.net</a></span>
+              <span
+                ><a href="mailto:contactus@betterhvac.net"
+                  >contactus@betterhvac.net</a
+                ></span
+              >
             </p>
             <p class>
               <PhoneCallIcon class="icon-xs icon mr-1"></PhoneCallIcon>:
