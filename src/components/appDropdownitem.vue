@@ -37,10 +37,13 @@
 </script>
 
 <template>
-    <a @click="handleNavigation()" class="">
+    <li>
+        <a @click="handleNavigation()" class="">
         <!--slug.path-->
         <slot/>
     </a>
+    </li>
+    
     <!--<a :href="$route.component" class="">
         <slot/>
     </a>-->

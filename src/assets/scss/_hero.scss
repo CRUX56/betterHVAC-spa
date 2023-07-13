@@ -134,7 +134,7 @@
             }
         }
         .form-border {
-            border: 1px solid darken($light, 5%);
+            border: 1px solid darken($primary, 5%); //1px solid darken($light, 5%)
         }
     }
 }

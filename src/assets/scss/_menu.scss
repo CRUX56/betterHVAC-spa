@@ -48,6 +48,20 @@
                 padding-right: 0px;
                 padding-left: 0px;
             }
+            div{
+                ul{
+                    padding-left: 0;
+                    list-style-type: none;
+                    background: $primary;
+                    border-bottom-left-radius: 0.5rem;
+                    border-bottom-right-radius: 0.5rem;
+                    li{
+                        a{
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
         }
         li.active a, li a:hover, li a:active {
             color: $secondary !important;
