@@ -126,7 +126,7 @@
         padding: 40px;
         .registration-form {
             .form-control {
-                border-color: darken($light, 6%);
+                border-color: $primary; //darken($light, 6%)
                 &:focus {
                     box-shadow: none;
                     border-color: lighten($primary, 16%);

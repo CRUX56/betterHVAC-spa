@@ -4,7 +4,13 @@
     background-repeat: no-repeat;
 
     h3{
-        color: $primary;
+        color: $secondary;
+    }
+    p{
+        color: $white;
+    }
+    strong{
+        color: $secondary;
     }
 }
 #tns1-ow{
@@ -33,7 +39,7 @@
             background: none no-repeat $gray-400;
         }
         .tns-nav-active{
-            background: none no-repeat $primary;
+            background: none no-repeat $secondary;
         }
     }
     #tns1-mw{
