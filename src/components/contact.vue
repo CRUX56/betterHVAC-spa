@@ -30,7 +30,7 @@ export default {
     submitForm() {
       console.log("contact form clicked");
       axios
-        .post("mailer", {
+        .post("http://localhost:8080/mailer", {
           name: this.name,
           email: this.email,
           comments: this.comments,
@@ -76,6 +76,7 @@ export default {
                       type="text"
                       class="form-control"
                       placeholder="Your name..."
+                      v-model="name"
                     />
                   </div>
                 </div>
@@ -87,6 +88,7 @@ export default {
                       type="email"
                       class="form-control"
                       placeholder="Your email..."
+                      v-model="email"
                     />
                   </div>
                 </div>
@@ -100,6 +102,7 @@ export default {
                       rows="4"
                       class="form-control"
                       placeholder="Your message..."
+                      v-model="comments"
                     ></textarea>
                   </div>
                 </div>
@@ -108,7 +111,7 @@ export default {
                 <div class="col-sm-12">
                   <button
                     type="button"
-                    id="submitForm()"
+                    @click="submitForm"
                     class="btn btn-primary"
                   >
                     Send Message
