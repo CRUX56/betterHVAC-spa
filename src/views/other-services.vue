@@ -98,7 +98,7 @@ export default {
             </div>
           </div>
           <div class="row">
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -118,7 +118,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -137,7 +137,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -156,7 +156,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -174,7 +174,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -192,7 +192,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -209,7 +209,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -227,7 +227,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -244,7 +244,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >
@@ -261,7 +261,7 @@ export default {
                 </p>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-5">
+            <div class="col-xl-6 col-lg-6">
               <div
                 class="wc-box rounded text-center wc-box-primary p-4 mt-md-5"
               >

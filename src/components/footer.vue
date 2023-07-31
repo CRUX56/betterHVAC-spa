@@ -3,7 +3,7 @@ import {
   FacebookIcon,
   TwitterIcon,
   InstagramIcon,
-  LinkedinIcon
+  LinkedinIcon,
 } from "vue-feather-icons";
 
 export default {
@@ -11,20 +11,29 @@ export default {
     FacebookIcon,
     TwitterIcon,
     InstagramIcon,
-    LinkedinIcon
-  }
+    LinkedinIcon,
+  },
 };
 </script>
 
 <template>
   <div>
     <!-- Footer Start -->
-    <section class="footer" style="background-image: url(assets/images/footer-bg.png)">
+    <section
+      class="footer"
+      style="background-image: url(assets/images/footer-bg.png)"
+    >
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="mb-5">
-              <img src="@/assets/images/better-hvac-logo.png" alt class height="45" />
+              <img
+                src="@/assets/images/better-hvac-logo.png"
+                alt
+                class
+                height="45"
+              />
+              <!--
               <p class="text-white-50 my-4 font-size-15">
                 Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum
                 ante ipsum primis in faucibus ultrices posuere cubilia.
@@ -50,7 +59,7 @@ export default {
                     <linkedin-icon></linkedin-icon>
                   </a>
                 </li>
-              </ul>
+              </ul>-->
             </div>
           </div>
           <div class="col-lg-7 offset-lg-1">
@@ -60,22 +69,30 @@ export default {
                 <ul class="list-unstyled footer-sub-menu">
                   <li>
                     <a href="javascript: void(0);" class="footer-link">
-                      <router-link :to="{name: 'cooling'}">Cooling</router-link>
+                      <router-link :to="{ name: 'cooling' }"
+                        >Cooling</router-link
+                      >
                     </a>
                   </li>
                   <li>
                     <a href="javascript: void(0);" class="footer-link">
-                      <router-link :to="{name: 'heating'}">Heating</router-link>
+                      <router-link :to="{ name: 'heating' }"
+                        >Heating</router-link
+                      >
                     </a>
                   </li>
                   <li>
                     <a href="javascript: void(0);" class="footer-link">
-                      <router-link :to="{name: 'maintenance'}">Maintenance</router-link>
+                      <router-link :to="{ name: 'maintenance' }"
+                        >Maintenance</router-link
+                      >
                     </a>
                   </li>
                   <li>
                     <a href="javascript: void(0);" class="footer-link">
-                      <router-link :to="{name: 'otherServices'}">Other Services</router-link>
+                      <router-link :to="{ name: 'otherServices' }"
+                        >Other Services</router-link
+                      >
                     </a>
                   </li>
                 </ul>
@@ -85,12 +102,16 @@ export default {
                 <ul class="list-unstyled footer-sub-menu">
                   <li>
                     <a href="javascript: void(0);" class="footer-link">
-                      <router-link :to="{name: 'ourStory'}">Our Story</router-link>
+                      <router-link :to="{ name: 'ourStory' }"
+                        >Our Story</router-link
+                      >
                     </a>
                   </li>
                   <li>
                     <a href="javascript: void(0);" class="footer-link">
-                      <router-link :to="{name: 'contactUs'}">Contact Us</router-link>
+                      <router-link :to="{ name: 'contactUs' }"
+                        >Contact Us</router-link
+                      >
                     </a>
                   </li>
                 </ul>
@@ -127,9 +148,9 @@ export default {
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">
-              <p
-                class="text-white-50 font-size-15 mb-0"
-              >{{ new Date().getFullYear()}} © BetterHVAC. Design By CRUX</p>
+              <p class="text-white-50 font-size-15 mb-0">
+                {{ new Date().getFullYear() }} © BetterHVAC. Design By CRUX
+              </p>
             </div>
           </div>
         </div>

@@ -106,7 +106,11 @@ export default {
               </div>
               <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" id="submitForm" class="btn btn-primary">
+                  <button
+                    type="button"
+                    id="submitForm()"
+                    class="btn btn-primary"
+                  >
                     Send Message
                     <send-icon class="icon-size-15 ml-2 icon"></send-icon>
                   </button>
