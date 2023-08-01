@@ -15,11 +15,11 @@ app.use(express.static(path.join(__dirname, "../dist")));
 
 // Route handlers for different forms
 
-const heroFormRoute = require("./routes/hero-form");
-const contactFormRoute = require("./routes/contact-form");
+const heroFormRoute = require("./routes/heroFormRoute");
+const contactFormRoute = require("./routes/contactFormRoute");
 
-app.use("/hero-form", heroFormRoute);
-app.use("/contact-form", contactFormRoute);
+app.use("/heroForm", heroFormRoute);
+app.use("/contactForm", contactFormRoute);
 
 //Route to handle form data
 /*

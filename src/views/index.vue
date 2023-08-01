@@ -23,7 +23,7 @@ export default {
     submitForm() {
       console.log("Header form clicked");
       axios
-        .post("/hero-form", {
+        .post("http://localhost:8080/heroForm", {
           name: this.name,
           email: this.email,
         })

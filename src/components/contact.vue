@@ -30,7 +30,7 @@ export default {
     submitForm() {
       console.log("contact form clicked");
       axios
-        .post("/contact-form", {
+        .post("http://localhost:8080/contactForm", {
           name: this.name,
           email: this.email,
           comments: this.comments,
