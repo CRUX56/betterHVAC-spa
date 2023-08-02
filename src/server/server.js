@@ -21,19 +21,6 @@ const contactFormRoute = require("./routes/contactFormRoute");
 app.use("/heroForm", heroFormRoute);
 app.use("/contactForm", contactFormRoute);
 
-//Route to handle form data
-/*
-app.post("/mailer", (req, res) => {
-  const { name, email, comments } = req.body;
-
-  console.log("Form data recieved:");
-  console.log("Name:", name);
-  console.log("Email:", email);
-  console.log("Comments:", comments);
-
-  res.json({ message: "Form data received successfully!" });
-});*/
-
 // Catch-all route to redirect to the Vue.js app
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../dist/index.html"));

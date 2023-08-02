@@ -27,7 +27,8 @@ export default {
     };
   },
   methods: {
-    submitForm() {
+    submitForm(event) {
+      event.preventDefault();
       console.log("contact form clicked");
       axios
         .post("http://localhost:8080/contactForm", {

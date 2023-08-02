@@ -20,7 +20,8 @@ export default {
     };
   },
   methods: {
-    submitForm() {
+    submitForm(event) {
+      event.preventDefault(); //Prevent default form submission
       console.log("Header form clicked");
       axios
         .post("http://localhost:8080/heroForm", {
