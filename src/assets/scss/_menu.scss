@@ -3,247 +3,267 @@
 */
 
 .nav-item {
-    .nav-link {
-        display: inline-block;
-        color: $dark;
-        text-decoration: none;
-        font-family: $font-secondary;
-    }
+  .nav-link {
+    display: inline-block;
+    color: $dark;
+    text-decoration: none;
+    font-family: $font-secondary;
+  }
 }
 
 .navbar-custom {
-    padding: 14px 0px;
-    width: 100%;
-    border-radius: 0px;
-    z-index: 999;
-    margin-bottom: 0px;
-    transition: all 0.5s ease-in-out;
-    background-color: transparent;
-    .logo {
-        .logo-dark {
-            display: none;
-        }
-        .ligo-light {
-            display: inline-block;
-        }
+  padding: 14px 0px;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+  margin-bottom: 0px;
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+  .logo {
+    .logo-dark {
+      display: none;
     }
-    .navbar-nav {
-        li {
+    .ligo-light {
+      display: inline-block;
+    }
+  }
+  .navbar-collapse {
+    &.show {
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+      background: $dark;
+    }
+  }
+  .navbar-nav {
+    li {
+      a {
+        line-height: 26px;
+        color: $white; //rgba($dark, 0.7)
+        font-size: 15px;
+        font-weight: 600;
+        transition: all 0.3s;
+        background-color: transparent !important;
+        padding: 6px 0;
+        margin: 0 20px;
+      }
+      &:last-child {
+        a {
+          margin-right: 0px;
+        }
+      }
+      .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+      div {
+        ul {
+          padding-left: 0;
+          list-style-type: none;
+          background: $primary;
+          border-bottom-left-radius: 0.5rem;
+          border-bottom-right-radius: 0.5rem;
+          li {
             a {
-                line-height: 26px;
-                color: $white; //rgba($dark, 0.7)
-                font-size: 15px;
-                font-weight: 600;
-                transition: all 0.3s;
-                background-color: transparent !important;
-                padding: 6px 0;
-                margin: 0 20px;
+              color: $secondary;
             }
-            &:last-child {
-                a {
-                    margin-right: 0px;
-                }
-            }
-            .nav-link {
-                padding-right: 0px;
-                padding-left: 0px;
-            }
-            div{
-                ul{
-                    padding-left: 0;
-                    list-style-type: none;
-                    background: $primary;
-                    border-bottom-left-radius: 0.5rem;
-                    border-bottom-right-radius: 0.5rem;
-                    li{
-                        a{
-                            color: $secondary;
-                        }
-                    }
-                }
-            }
+          }
         }
-        li.active a, li a:hover, li a:active {
-            color: $secondary !important;
-        }
+      }
     }
-    .navbar-toggles {
-        padding: .25rem .75rem;
-        font-size: 18px;
-        background: 0 0;
-        border: 1px solid transparent;
-        color: $white;
-        outline: 0;
+    li.active a,
+    li a:hover,
+    li a:active {
+      color: $secondary !important;
     }
-    .logo {
-        .logo-dark {
-            display: inline-block;
-        }
-        .logo-light {
-            display: none;
-        }
+  }
+  .navbar-toggles {
+    padding: 0.25rem 0.75rem;
+    font-size: 18px;
+    background: 0 0;
+    border: 1px solid transparent;
+    color: $white;
+    outline: 0;
+  }
+  .logo {
+    .logo-dark {
+      display: inline-block;
     }
+    .logo-light {
+      display: none;
+    }
+  }
 }
 
 .navbar-toggler {
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    color: $white;
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: $white;
 }
 
-.nav .open>a,
-.nav .open>a:focus,
-.nav .open>a:hover {
-    background-color: transparent;
-    border-color: $primary;
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  background-color: transparent;
+  border-color: $primary;
 }
 
 .menu-toggle {
-    padding: 4.5px 10px !important;
-    span {
-        line-height: 27px;
-    }
+  padding: 4.5px 10px !important;
+  span {
+    line-height: 27px;
+  }
 }
 
 // ***** NAVBAR LIGHT ***** //
 .navbar-light {
-    .navbar-nav {
-        li {
-            a {
-                color: rgba($white, 0.6) !important;
-            }
-        }
-        li.active a, li a:hover, li a:active {
-            color: $white !important;
-        }
+  .navbar-nav {
+    li {
+      a {
+        color: rgba($white, 0.6) !important;
+      }
     }
-    .logo {
-        .logo-dark {
-            display: none;
-        }
-        .logo-light {
-            display: inline-block;
-        }
+    li.active a,
+    li a:hover,
+    li a:active {
+      color: $white !important;
     }
-    .nav-link {
-        &:after {
-            background: transparent;
-        }
+  }
+  .logo {
+    .logo-dark {
+      display: none;
     }
-    .navbar-toggler {
-        border-color: transparent;
+    .logo-light {
+      display: inline-block;
     }
+  }
+  .nav-link {
+    &:after {
+      background: transparent;
+    }
+  }
+  .navbar-toggler {
+    border-color: transparent;
+  }
 }
 
 .navbar-light .navbar-nav li.active a,
 .navbar-light .navbar-nav li a:hover,
 .navbar-light .navbar-nav li a:active {
-    color: $white !important;
+  color: $white !important;
 }
 
 /*---NAVBAR STICKY--*/
 
 .nav-sticky {
-    &.navbar-custom {
-        margin-top: 0px;
-        background-color: $white;
-        box-shadow: 0 0 10px 0 rgba($black, 0.06);
-        color: $black !important;
-        .navbar-toggles {
-            padding: .25rem .75rem;
-            border: 1px solid transparent;
-            outline: 0;
-        }
-        .navbar-nav {
-            margin-top: 0px;
-            li {
-                a {
-                    color: darken($muted, 6%) !important;
-                }
-            }
-            li.active a, li a:hover, li a:active {
-                color: $primary !important;
-            }
-        }
+  &.navbar-custom {
+    margin-top: 0px;
+    background-color: $white;
+    box-shadow: 0 0 10px 0 rgba($black, 0.06);
+    color: $black !important;
+    .navbar-collapse {
+      background: transparent;
     }
-    
-    .logo {
-        .logo-dark {
-            display: inline-block !important;
-        }
-        .logo-light {
-            display: none !important;
-        }
+    .navbar-toggles {
+      padding: 0.25rem 0.75rem;
+      border: 1px solid transparent;
+      outline: 0;
     }
+    .navbar-toggler {
+      color: $dark;
+    }
+    .navbar-nav {
+      margin-top: 0px;
+      li {
+        a {
+          color: darken($muted, 6%) !important;
+        }
+      }
+      li.active a,
+      li a:hover,
+      li a:active {
+        color: $primary !important;
+      }
+    }
+  }
+
+  .logo {
+    .logo-dark {
+      display: inline-block !important;
+    }
+    .logo-light {
+      display: none !important;
+    }
+  }
 }
 
 .navbar-toggler {
-    &:focus {
-        outline: none;
-    }
+  &:focus {
+    outline: none;
+  }
 }
 
-
-
-
 @media (min-width: 200px) and (max-width: 768px) {
-    .navbar-custom {
-        margin-top: 0px;
-        background-color: $white !important;
-        box-shadow: 0 3px 10px rgba($black, 0.08);
-        color: $white !important;
-        .navbar-nav {
-            margin-top: 0px;
-            li {
-                a {
-                    transition: all 0.4s;
-                    color: $muted !important;
-                    margin: 0px;
-                }
-                &.active {
-                    a {
-                        border-color: transparent;
-                    }
-                }
-            }
-            li.active a, li a:hover, li a:active {
-                color: $primary !important;
-            }
+  .navbar-custom {
+    margin-top: 0px;
+    background-color: $white !important;
+    box-shadow: 0 3px 10px rgba($black, 0.08);
+    color: $white !important;
+    .navbar-nav {
+      margin-top: 0px;
+      li {
+        a {
+          transition: all 0.4s;
+          color: $muted !important;
+          margin: 0px;
         }
-        &>.container {
-            width: 90%;
+        &.active {
+          a {
+            border-color: transparent;
+          }
         }
-        .logo {
-            .logo-dark {
-                display: inline-block !important;
-            }
-            .logo-light {
-                display: none !important;
-            }
-        }
-        &.navbar-light {
-            .navbar-nav {
-                li.active a, li a:hover, li a:active {
-                    color: $dark !important;
-                }
-            }
-        }
+      }
+      li.active a,
+      li a:hover,
+      li a:active {
+        color: $primary !important;
+      }
     }
-    .navbar-toggler {
-        font-size: 24px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        color: $dark;
+    & > .container {
+      width: 90%;
     }
-    .navbar-collapse {
-        padding: 0 20px;
+    .logo {
+      .logo-dark {
+        display: inline-block !important;
+      }
+      .logo-light {
+        display: none !important;
+      }
     }
-    .navbar-light {
-        .nav-item {
-            .nav-link:after {
-                background: $dark;
-            }
+    &.navbar-light {
+      .navbar-nav {
+        li.active a,
+        li a:hover,
+        li a:active {
+          color: $dark !important;
         }
+      }
     }
+  }
+  .navbar-toggler {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $dark;
+  }
+  .navbar-collapse {
+    padding: 0 20px;
+  }
+  .navbar-light {
+    .nav-item {
+      .nav-link:after {
+        background: $dark;
+      }
+    }
+  }
 }
