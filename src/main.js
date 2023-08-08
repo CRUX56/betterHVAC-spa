@@ -1,33 +1,37 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import axios from 'axios'
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import axios from "axios";
+import VueMeta from "vue-meta";
 
-import { BootstrapVue } from 'bootstrap-vue'
-import VueYoutube from 'vue-youtube'
+import { BootstrapVue } from "bootstrap-vue";
+import VueYoutube from "vue-youtube";
 
-import Scrollspy from 'vue2-scrollspy';
-var VueScrollTo = require('vue-scrollto');
+import Scrollspy from "vue2-scrollspy";
+var VueScrollTo = require("vue-scrollto");
 
 import VueTinySlider from "vue-tiny-slider";
-var VueSlider = require('vue-tiny-slider');
+var VueSlider = require("vue-tiny-slider");
 
-Vue.prototype.$http = axios
-Vue.config.productionTip = false
+Vue.prototype.$http = axios;
+Vue.config.productionTip = false;
 
 import "@/assets/scss/style.scss";
 import "@/assets/css/materialdesignicons.min.css";
 
-Vue.use(VueYoutube)
+Vue.use(VueYoutube);
 
 Vue.use(Scrollspy);
-Vue.use(VueScrollTo)
+Vue.use(VueScrollTo);
 
 // Install BootstrapVue
-Vue.use(BootstrapVue)
-Vue.use(VueSlider)
+Vue.use(BootstrapVue);
+Vue.use(VueSlider);
+Vue.use(VueMeta, {
+  keyName: "head",
+});
 
 new Vue({
   router,
-  render: h => h(App)
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");
