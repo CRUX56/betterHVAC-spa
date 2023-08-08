@@ -15,7 +15,7 @@ router.post("/", async (req, res) => {
       service: "Gmail",
       auth: {
         user: "dathan.cruz4@gmail.com", // your email
-        pass: "Dcruzing7!", // your email pass
+        pass: "ipszvzedligdrtwg", // your email pass or generated app password for 2 factor authication
       },
     });
 
