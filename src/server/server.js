@@ -1,10 +1,14 @@
+// Access env variables
+const NODE_ENV = process.env.NODE_ENV;
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const path = require("path");
 
 const app = express();
-const port = process.env.PORT || 8081; //8080
+const port =
+  process.env.NODE_ENV === "production" ? process.env.NODE_ENV || 80 : 8081; //8080 process.env.PORT || 8081
 
 // Middleware
 app.use(bodyParser.json());
