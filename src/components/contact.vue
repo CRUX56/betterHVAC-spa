@@ -31,7 +31,7 @@ export default {
       event.preventDefault();
       console.log("contact form clicked");
       axios
-        .post("http://localhost:8080/contactForm", {
+        .post("http://localhost:8081/contactForm", {
           name: this.name,
           email: this.email,
           comments: this.comments,

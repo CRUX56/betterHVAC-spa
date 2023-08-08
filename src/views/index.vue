@@ -24,7 +24,7 @@ export default {
       event.preventDefault(); //Prevent default form submission
       console.log("Header form clicked");
       axios
-        .post("http://localhost:8080/heroForm", {
+        .post("http://localhost:8081/heroForm", {
           name: this.name,
           email: this.email,
         })

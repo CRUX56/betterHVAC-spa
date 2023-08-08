@@ -22,7 +22,7 @@ router.post("/", async (req, res) => {
     // Define the email options
     let mailOptions = {
       from: "dathan.cruz4@gmail.com", // your-email@gmail.com
-      to: "info@gmail.com", // recipient-email@example.com
+      to: "dathan.cruz4@gmail.com", // recipient-email@example.com
       subject: "Contact Form Submission",
       text: `Name: ${name}\nEmail: ${email}\nComments: ${comments}`,
     };
