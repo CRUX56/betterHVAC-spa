@@ -1,9 +1,14 @@
 // heroFormRoute.js
+require("dotenv").config(); // Load enviorment variables from .env
+
 const express = require("express");
 const router = express.Router();
 const nodemailer = require("nodemailer");
-// Route handler for the hero form
+const emailService = process.env.EMAIL_SERVICE;
+const emailUser = process.env.EMAIL_USER;
+const emailPass = process.env.EMAIL_PASSWORD;
 
+// Route handler for the hero form
 router.post("/", async (req, res) => {
   // Handle Hero form submission here
   const { name, email } = req.body;
@@ -11,10 +16,10 @@ router.post("/", async (req, res) => {
   try {
     // Create Nodemailer transporter
     let transporter = nodemailer.createTransport({
-      service: "Gmail",
+      service: emailService,
       auth: {
-        user: "dathan.cruz4@gmail.com", // your email address
-        pass: "ipszvzedligdrtwg", // your email pass,
+        user: emailUser, // your email address
+        pass: emailPass, // your email pass,
       },
     });
 

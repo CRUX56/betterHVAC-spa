@@ -1,4 +1,6 @@
 // Access env variables
+require("dotenv").config(); // Load environment variables from .env
+
 const NODE_ENV = process.env.NODE_ENV;
 
 const express = require("express");

@@ -1,10 +1,14 @@
 // contactFormRoute.js
+require("dotenv").config(); // Load enviroment variables from .env
+
 const express = require("express");
 const router = express.Router();
 const nodemailer = require("nodemailer");
+const emailService = process.env.EMAIL_SERVICE;
+const emailUser = process.env.EMAIL_USER;
+const emailPass = process.env.EMAIL_PASSWORD;
 
 // Route handler for the contact form
-
 router.post("/", async (req, res) => {
   // Handle contact form submission here
   const { name, email, comments } = req.body;
@@ -12,10 +16,10 @@ router.post("/", async (req, res) => {
   try {
     // Create the Nodemailer transporter
     let transporter = nodemailer.createTransport({
-      service: "Gmail",
+      service: emailService,
       auth: {
-        user: "dathan.cruz4@gmail.com", // your email
-        pass: "ipszvzedligdrtwg", // your email pass or generated app password for 2 factor authication
+        user: emailUser, // your email
+        pass: emailPass, // your email pass or generated app password for 2 factor authication
       },
     });
 
