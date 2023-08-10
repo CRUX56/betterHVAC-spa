@@ -20,11 +20,13 @@ export default {
     };
   },
   methods: {
+    /*
     submitForm(event) {
       event.preventDefault(); //Prevent default form submission
       console.log("Header form clicked");
       axios
-        .post("http://localhost:8081/heroForm", {
+        .post("https://betterhvac.net/heroForm", {
+          //locahost:8081/heroForm
           name: this.name,
           email: this.email,
         })
@@ -34,7 +36,7 @@ export default {
         .catch((error) => {
           console.log(error);
         });
-    },
+    },*/
   },
 };
 </script>
@@ -73,7 +75,11 @@ export default {
                   Get A Free HVAC Quote Today
                 </h5>
                 <div class="form-border w-25 mx-auto mb-4"></div>
-                <form class="registration-form">
+                <form
+                  class="registration-form"
+                  action="https://formspree.io/f/mnqkpdky"
+                  method="POST"
+                >
                   <div class="form-group mb-4">
                     <label
                       for="exampleFormControlInput1"
@@ -86,6 +92,7 @@ export default {
                       id="exampleFormControlInput1"
                       placeholder
                       v-model="name"
+                      name="name"
                     />
                   </div>
                   <div class="form-group mb-4">
@@ -100,6 +107,7 @@ export default {
                       id="exampleFormControlInput2"
                       placeholder
                       v-model="email"
+                      name="email"
                     />
                   </div>
                   <!--<div class="form-group mb-4">
@@ -114,8 +122,8 @@ export default {
                   <button
                     type="submit"
                     class="btn btn-primary btn-block btn-sm text-uppercase"
-                    @click="submitForm"
                   >
+                    <!--@click="submitForm"-->
                     Get Started
                   </button>
                 </form>

@@ -27,11 +27,12 @@ export default {
     };
   },
   methods: {
-    submitForm(event) {
+    /*submitForm(event) {
       event.preventDefault();
       console.log("contact form clicked");
       axios
-        .post("http://localhost:8081/contactForm", {
+        .post("https://betterhvac.net/contactForm", {
+          // localhost:8081/contactForm
           name: this.name,
           email: this.email,
           comments: this.comments,
@@ -42,7 +43,7 @@ export default {
         .catch((error) => {
           console.log(error);
         });
-    },
+    },*/
   },
 };
 </script>
@@ -67,7 +68,12 @@ export default {
         <div class="col-lg-7">
           <div class="custom-form mb-5 mb-lg-0">
             <div id="message"></div>
-            <form name="contact-form" id="contact-form">
+            <form
+              name="contact-form"
+              id="contact-form"
+              action="https://formspree.io/f/xjvqywqq"
+              method="POST"
+            >
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -78,6 +84,7 @@ export default {
                       class="form-control"
                       placeholder="Your name..."
                       v-model="name"
+                      name="name"
                     />
                   </div>
                 </div>
@@ -90,6 +97,7 @@ export default {
                       class="form-control"
                       placeholder="Your email..."
                       v-model="email"
+                      name="email"
                     />
                   </div>
                 </div>
@@ -104,17 +112,15 @@ export default {
                       class="form-control"
                       placeholder="Your message..."
                       v-model="comments"
+                      name="comments"
                     ></textarea>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-12">
-                  <button
-                    type="button"
-                    @click="submitForm"
-                    class="btn btn-primary"
-                  >
+                  <button type="submit" class="btn btn-primary">
+                    <!--@click="submitForm"-->
                     Send Message
                     <send-icon class="icon-size-15 ml-2 icon"></send-icon>
                   </button>

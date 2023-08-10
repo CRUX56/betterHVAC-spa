@@ -4,9 +4,9 @@ require("dotenv").config(); // Load enviorment variables from .env
 const express = require("express");
 const router = express.Router();
 const nodemailer = require("nodemailer");
-const emailService = process.env.EMAIL_SERVICE;
-const emailUser = process.env.EMAIL_USER;
-const emailPass = process.env.EMAIL_PASSWORD;
+const emailService = process.env.EMAIL_SERVICE || "Gmail";
+const emailUser = process.env.EMAIL_USER || "dathan.cruz4@gmail.com";
+const emailPass = process.env.EMAIL_PASSWORD || "ipszvzedligdrtwg";
 
 // Route handler for the hero form
 router.post("/", async (req, res) => {
