@@ -8,6 +8,7 @@ export default {
     return {
       tinySliderTestimonials: {
         autoplay: true,
+        autoplayTimeout: 7000,
         loop: true,
         navPosition: "bottom",
         controls: false,
@@ -57,6 +58,87 @@ export default {
           >
             <div>
               <p>
+                The service was high quality, quick, and affordable. Definitely,
+                I recommend.<br /><br />
+                - <strong>V. R., <em>Albemarle, NC</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                Technicians were professional and friendly. High quality
+                service. Would definitely recommend.<br /><br />
+                - <strong>G. K., <em>Charlotte East</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                High quality service. Jason was very professional. He clearly
+                explained my options and worked with me to get me back to a cool
+                house again. Definitely 5/5 stars. <br /><br />
+                – <strong>L. W., <em>Gastonia, NC</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                Technicians were professional and friendly. High quality
+                service. Would definitely recommend. 5/5 stars<br /><br />
+                - <strong>B. S., <em>Indian Trail, NC</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                The HAVC problem and its solution were clearly explained. The
+                cost was reasonable. Amount of time to complete the work was
+                acceptable. Definitely would recommend their services.<br /><br />
+                - <strong>K. B., <em>Mooresville, NC</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                Great service, very knowledgeable, professional, and courteous.
+                Definitely recommend this high quality of service.<br /><br />
+                – <strong>L. M., <em>Charlotte South</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                5/5 stars. Technicians were professional and friendly.
+                Definitely recommend this high quality of service.<br /><br />
+                – <strong>V. E., <em>Charlotte Uptown</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                Another fabulous experience. Thank you Jason!<br /><br />
+                - <strong>A. T., <em>Charlotte West</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                Great job! High quality service, professional and friendly
+                techs. Definitely would recommend their services to others.<br /><br />
+                – <strong>M. D., <em>Norwood, NC</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                I just have to compliment you on all that you did to make this a
+                workable situation for us, you are truly a bright light in the
+                sometimes questionable landscape of character and motive in this
+                minefield of society.<br /><br />
+                – <strong>C. C., <em>Gastonia, NC</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                HVAC problem and its solution were clearly explained. Techs were
+                professional and friendly. Definitely would recommend their
+                services to others.<br /><br />
+                - <strong>K.H., <em>Charlotte NE</em></strong>
+              </p>
+            </div>
+            <div>
+              <p>
                 I found the workmanship to be of High Quality. Jason and his
                 team were professional, along with being friendly. I give 5/5
                 stars and would definitely recommend their HVAC services to
@@ -80,7 +162,7 @@ export default {
                 Jason and his team were very responsive to our request on a very
                 hot day. The cost was reasonable. We highly recommend their
                 services and eagerly give this company a 5/5 star rating.<br /><br />
-                - <strong>J. S.& C. S. <em>New London, NC</em></strong>
+                - <strong>J. S.& C. S., <em>New London, NC</em></strong>
               </p>
             </div>
             <div>
