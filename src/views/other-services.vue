@@ -219,7 +219,7 @@ export default {
                 <h5>Inspections</h5>
                 <p class="text-muted mb-4">
                   Our thorough HVAC inspections help identify potential issues
-                  and ensure your system is operating at peak efficiency. BETTER
+                  and ensure your system is operating at peak efficiency. Better
                   HVAC's detailed assessments and preventive maintenance
                   services can extend the lifespan of your HVAC equipment,
                   minimize the risk of breakdowns, and save you from costly

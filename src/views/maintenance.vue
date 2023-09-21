@@ -19,49 +19,49 @@ export default {
         {
           title: "Heating Systems",
           content:
-            "BETTER HVAC installs and maintains High Quality, Money Saving,Highly Efficient, Heating Systems, the lifespan averages 30 years with less repair or maintnenance. We would like to add you to our growing list of satisfied customers!",
+            "Better HVAC installs and maintains High Quality, Money Saving,Highly Efficient, Heating Systems, the lifespan averages 30 years with less repair or maintnenance. We would like to add you to our growing list of satisfied customers!",
           isOpen: false,
         },
         {
           title: "Ventilation",
           content:
-            "BETTER HVAC installs and maintains proper Ventilation, using Filters, Air Vents, Air Exchange and Humidity Control when requested..",
+            "Better HVAC installs and maintains proper Ventilation, using Filters, Air Vents, Air Exchange and Humidity Control when requested..",
           isOpen: false,
         },
         {
           title: "Air Conditioning",
           content:
-            "BETTER HVAC provides both New and Maintains Existing, Air Conditioniing Systems, both Central and Wall. We would like to add you to our growing list of satisfied customers!",
+            "Better HVAC provides both New and Maintains Existing, Air Conditioniing Systems, both Central and Wall. We would like to add you to our growing list of satisfied customers!",
           isOpen: false,
         },
         {
           title: "Gas Lines",
           content:
-            "BETTER HVAC installs and maintains Gas Lines for HVAC, Grills, Firepits and Generaors.Feel free to call us for an estimate!",
+            "Better HVAC installs and maintains Gas Lines for HVAC, Grills, Firepits and Generaors.Feel free to call us for an estimate!",
           isOpen: false,
         },
         {
           title: "Thermostats/Programmable Devices",
           content:
-            "BETTER HVAC installs and maintains Thermostat and Programmable Devices, so you can time, when and how long Heat and AC should run, for maximum savings and efficiency.",
+            "Better HVAC installs and maintains Thermostat and Programmable Devices, so you can time, when and how long Heat and AC should run, for maximum savings and efficiency.",
           isOpen: false,
         },
         {
           title: "Inspections",
           content:
-            "BETTER HVAC Inspects your equipment initially and during regular Maintenance visits or as requested by you. We check, Temperature, Burn Efficiency, leaks,valve quality and needed cleaning.",
+            "Better HVAC Inspects your equipment initially and during regular Maintenance visits or as requested by you. We check, Temperature, Burn Efficiency, leaks,valve quality and needed cleaning.",
           isOpen: false,
         },
         {
           title: "(Emergency)Repairs",
           content:
-            "BETTER HVAC repairs, Motors,Compressors, Leaks, Refrigerant, Burners,etc.. We would like to add you to our growing list of satisfied customers!",
+            "Better HVAC repairs, Motors,Compressors, Leaks, Refrigerant, Burners,etc.. We would like to add you to our growing list of satisfied customers!",
           isOpen: false,
         },
         {
           title: "Ductwork",
           content:
-            "BETTER HVAC installs and maintains Clean and Sealed Ductwork. With proper insulation and placement for little Heat and Cooling Loss. We would like to add you to our growing list of satisfied customers!",
+            "Better HVAC installs and maintains Clean and Sealed Ductwork. With proper insulation and placement for little Heat and Cooling Loss. We would like to add you to our growing list of satisfied customers!",
           isOpen: false,
         },
       ],
@@ -98,13 +98,14 @@ export default {
           <div class="row align-items-left">
             <div class="col-xl-12 col-lg-12">
               <h3>HVAC Maintenance</h3>
-              <p class="text-muted mb-4">
+              <!--
+                <p class="text-muted mb-4">
                 Better HVAC, LLC takes great pride in doing high quality work,
                 with highly efficient materials, in a cost-effective manner.
                 Come join our growing list of happy customers.
               </p>
               <p class="text-muted mb-4">
-                At BETTER HVAC, we specialize in the installation and
+                At Better HVAC, we specialize in the installation and
                 maintenance of high-quality, money-saving, and highly efficient
                 heating systems. Our team is dedicated to helping you achieve
                 optimal comfort while also maximizing energy savings. We
@@ -117,7 +118,7 @@ export default {
               </p>
               <p class="text-muted mb-4">
                 Join our ever-growing list of satisfied customers who have
-                experienced the benefits of BETTER HVAC's heating systems. Our
+                experienced the benefits of Better HVAC's heating systems. Our
                 skilled technicians have the expertise and experience to handle
                 the installation with meticulous attention to detail. We
                 prioritize your comfort and strive to create a cozy and inviting
@@ -125,9 +126,38 @@ export default {
                 high-quality heating systems, you can expect improved energy
                 efficiency, lower utility bills, and a consistent and
                 comfortable indoor environment even during the coldest months.
-                Trust BETTER HVAC to deliver exceptional heating solutions that
+                Trust Better HVAC to deliver exceptional heating solutions that
                 will exceed your expectations and provide lasting value for your
                 investment.
+              </p>
+              -->
+              <p class="text-muted mb-4">
+                Regular maintenance is essential for optimal performance and
+                longevity of the system, preventing breakdowns and ensuring
+                efficient operation.
+              </p>
+              <p class="text-muted mb-4">
+                Better HVAC provides comprehensive maintenance plans to keep
+                your HVAC system in top-notch condition. Regular maintenance
+                visits from our experienced technicians help prevent potential
+                issues, improve energy efficiency, and extend the lifespan of
+                your HVAC equipment. This ultimately saves you money and ensures
+                year-round comfort in your home or business.
+              </p>
+              <p class="text-muted mb-4">
+                Join our ever-growing list of satisfied customers who have
+                experienced the benefits of Better HVAC's Preventive Maintenance
+                service visits.
+              </p>
+              <ul class="text-muted mb-4">
+                <li>22-Point Spring/Summer Cooling system service</li>
+                <li>22-Point Fall/Winter Heating system service</li>
+                <li>Cost-Saving PM (Preventive Maintenance) Annual Contract</li>
+              </ul>
+              <p class="text-muted mb-4">
+                Trust Better HVAC to deliver exceptional Preventive Maintenance
+                service that will exceed your expectations, provide lasting
+                value for your investment, and ensures year-round comfort
               </p>
               <contentAccordion
                 :service-accordion-array="serviceAccordionArray"
