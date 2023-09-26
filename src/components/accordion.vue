@@ -1,12 +1,12 @@
 <script>
-    export default {
-        props: {
-            serviceAccordionArray: {
-                type: Array,
-                required: true
-            }
-        },  
-        /*data() {
+export default {
+  props: {
+    serviceAccordionArray: {
+      type: Array,
+      required: true,
+    },
+  },
+  /*data() {
             return {
                 items: [
                     {
@@ -27,28 +27,34 @@
                 ]
             };
         },*/
-        methods: {
-            toggleItem(index) {
-                this.serviceAccordionArray[index].isOpen = !this.serviceAccordionArray[index].isOpen;
-            }
-        },
-        created() {
-            console.log(this.serviceAccordionArray);
-        }
-    };
+  methods: {
+    toggleItem(index) {
+      this.serviceAccordionArray[index].isOpen =
+        !this.serviceAccordionArray[index].isOpen;
+    },
+  },
+  created() {
+    console.log(this.serviceAccordionArray);
+  },
+};
 </script>
 
 <template>
-    <div class="accordion">
-        <div v-for="(item, index) in serviceAccordionArray" :key="index" class="accordion-item">
-            <div class="accordion-header" @click="toggleItem(index)">
-                {{ item.title }}
-            </div>
-            <div v-show="item.isOpen" class="accordion-content">
-                {{ item.content }}
-            </div>
+  <div class="accordion">
+    <div
+      v-for="(item, index) in serviceAccordionArray"
+      :key="index"
+      class="accordion-item"
+    >
+      <div class="accordion-header" @click="toggleItem(index)">
+        {{ item.title }}
+        <div class="rating">
+          <span v-for="i in item.rating" :key="i" class="star-entity">★</span>
         </div>
+      </div>
+      <div v-show="item.isOpen" class="accordion-content">
+        {{ item.content }}
+      </div>
     </div>
+  </div>
 </template>
-
-

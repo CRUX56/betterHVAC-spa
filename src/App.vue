@@ -12,9 +12,9 @@
 
 <script>
 export default {
-  name: "BetterHVAC Heating & Air Conditioning",
+  name: "Better-HVAC-Heating-and-Air-Conditioning", //Better HVAC Heating & Air Conditioning
   metaInfo: {
-    title: "BetterHVAC Heating & Air Conditioning",
+    title: "Better HVAC Heating & Air Conditioning",
     titleTemplate: "%s | vue-meta Example App",
     htmlAttrs: {
       lang: "en-US",
@@ -23,7 +23,7 @@ export default {
       { charset: "utf-8" },
       {
         name: "description",
-        content: "BetterHVAC - Quality Air Conditioning and Heating",
+        content: "Better HVAC - Quality Air Conditioning and Heating",
       },
       {
         name: "keywords",

@@ -107,7 +107,7 @@ export default {
                 </div>
                 <h5>Heating</h5>
                 <p class="text-muted mb-4">
-                  BetterHVAC offers comprehensive heating services, including
+                  Better HVAC offers comprehensive heating services, including
                   the installation, repair, and maintenance of various heating
                   systems. From energy-efficient furnaces to heat pumps and
                   radiant heating solutions, our skilled technicians ensure that
@@ -128,12 +128,12 @@ export default {
                 <h5>Ventilation</h5>
                 <p class="text-muted mb-4">
                   Our ventilation services focus on providing clean and fresh
-                  indoor air to promote a healthy living environment. BetterHVAC
-                  installs and maintains ventilation systems that efficiently
-                  exchange stale indoor air with filtered outdoor air, reducing
-                  pollutants and allergens. Proper ventilation also helps
-                  prevent excess moisture, ensuring your space remains
-                  comfortable and free from mold and mildew issues.
+                  indoor air to promote a healthy living environment. Better
+                  HVAC installs and maintains ventilation systems that
+                  efficiently exchange stale indoor air with filtered outdoor
+                  air, reducing pollutants and allergens. Proper ventilation
+                  also helps prevent excess moisture, ensuring your space
+                  remains comfortable and free from mold and mildew issues.
                 </p>
               </div>
             </div>
@@ -146,13 +146,14 @@ export default {
                 </div>
                 <h5>Air Conditioning</h5>
                 <p class="text-muted mb-4">
-                  BetterHVAC specializes in delivering superior air conditioning
-                  solutions tailored to your specific needs. Whether you require
-                  a new central air conditioning system or need maintenance and
-                  repairs for an existing unit, we have you covered. Our
-                  technicians are well-versed in the latest AC technologies and
-                  can optimize your cooling system's performance, ensuring
-                  comfort and energy efficiency during hot summer months.
+                  Better HVAC specializes in delivering superior air
+                  conditioning solutions tailored to your specific needs.
+                  Whether you require a new central air conditioning system or
+                  need maintenance and repairs for an existing unit, we have you
+                  covered. Our technicians are well-versed in the latest AC
+                  technologies and can optimize your cooling system's
+                  performance, ensuring comfort and energy efficiency during hot
+                  summer months.
                 </p>
               </div>
             </div>
@@ -165,7 +166,7 @@ export default {
                 </div>
                 <h5>Gas Lines HVAC</h5>
                 <p class="text-muted mb-4">
-                  As experts in gas line installations, BetterHVAC ensures safe
+                  As experts in gas line installations, Better HVAC ensures safe
                   and efficient delivery of natural gas to power various HVAC
                   appliances, such as furnaces and water heaters. Our certified
                   technicians handle gas line installations with utmost
@@ -183,7 +184,7 @@ export default {
                 </div>
                 <h5>Firepits</h5>
                 <p class="text-muted mb-4">
-                  BetterHVAC can enhance your outdoor living space by designing
+                  Better HVAC can enhance your outdoor living space by designing
                   and installing firepits that create a cozy and inviting
                   ambiance. Our firepit installations prioritize safety and
                   aesthetics, using quality materials and expert craftsmanship
@@ -238,7 +239,7 @@ export default {
                 <p class="text-muted mb-4">
                   We understand that HVAC emergencies can happen at any time,
                   which is why our team is available around the clock to handle
-                  urgent repair needs. BetterHVAC's prompt and reliable
+                  urgent repair needs. Better HVAC's prompt and reliable
                   emergency services ensure that your comfort is restored
                   swiftly and efficiently.
                 </p>
@@ -254,7 +255,7 @@ export default {
                 <h5>Ducts & Insulation</h5>
                 <p class="text-muted mb-4">
                   Properly insulated and sealed ductwork plays a crucial role in
-                  maintaining efficient HVAC performance. BetterHVAC offers
+                  maintaining efficient HVAC performance. Better HVAC offers
                   expert ductwork services, including installation, repair, and
                   maintenance, ensuring that conditioned air is distributed
                   evenly throughout your space while minimizing energy loss.
@@ -270,7 +271,7 @@ export default {
                 </div>
                 <h5>Maintenance</h5>
                 <p class="text-muted mb-4">
-                  BetterHVAC provides comprehensive maintenance plans to keep
+                  Better HVAC provides comprehensive maintenance plans to keep
                   your HVAC system in top-notch condition. Regular maintenance
                   visits from our experienced technicians help prevent potential
                   issues, improve energy efficiency, and extend the lifespan of
