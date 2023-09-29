@@ -4,7 +4,7 @@ import {
   TwitterIcon,
   InstagramIcon,
   LinkedinIcon,
-  ArrowRightCircleIcon
+  ArrowRightCircleIcon,
 } from "vue-feather-icons";
 
 import AppDropdown from "./appDropdown.vue";
@@ -15,8 +15,8 @@ export default {
   props: {
     navbarcolor: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   components: {
     FacebookIcon,
@@ -26,10 +26,10 @@ export default {
     ArrowRightCircleIcon,
     AppDropdown,
     AppDropdownContent,
-    AppDropdownItem
+    AppDropdownItem,
   },
   mounted: () => {
-    window.onscroll = function() {
+    window.onscroll = function () {
       onwindowScroll();
     };
     var navbar = document.getElementById("navbar");
@@ -50,8 +50,8 @@ export default {
      */
     toggleMenu() {
       document.getElementById("navbarCollapse").classList.toggle("show");
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -60,12 +60,18 @@ export default {
   <nav
     class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark"
     id="navbar"
-    :class="{'navbar-light': navbarcolor === true}"
+    :class="{ 'navbar-light': navbarcolor === true }"
   >
     <div class="container">
       <!-- LOGO -->
       <a class="navbar-brand logo" href="/">
-        <img src="@/assets/images/better-hvac-logo.png" alt class="logo-dark" height="45" />
+        <img
+          src="@/assets/images/logo-updated.jpg"
+          alt
+          class="logo-dark"
+          width="87"
+          height="45"
+        />
         <!--<img src="@/assets/images/logo-light.png" alt class="logo-light" height="24" />-->
       </a>
       <button
@@ -82,36 +88,50 @@ export default {
           <li class="nav-item">
             <a href="javascript: void(0);" class="nav-link">
               <!--v-scroll-to="'#home'"-->
-              <router-link :to="{name: 'indexLink'}">
-                Home
-              </router-link>
+              <router-link :to="{ name: 'indexLink' }"> Home </router-link>
             </a>
           </li>
           <li class="nav-item">
             <AppDropdown>
-              <a href="javascript: void(0);" class="nav-link" slot="toggler"><!--v-scroll-to="{ el: '#services', offset: -2}"-->Services</a>
+              <a href="javascript: void(0);" class="nav-link" slot="toggler"
+                ><!--v-scroll-to="{ el: '#services', offset: -2}"-->Services</a
+              >
               <AppDropdownContent>
-                <AppDropdownItem :slug="{name: 'cooling'}">Cooling</AppDropdownItem>
+                <AppDropdownItem :slug="{ name: 'cooling' }"
+                  >Cooling</AppDropdownItem
+                >
                 <!--<AppDropdownItem :slug="{path: '/services/cooling'}">Cooling</AppDropdownItem>-->
-                <AppDropdownItem :slug="{name: 'heating'}">Heating</AppDropdownItem>
-                <AppDropdownItem :slug="{name: 'maintenance'}">Maintenance</AppDropdownItem>
-                <AppDropdownItem :slug="{name: 'otherServices'}">Other Services</AppDropdownItem>
+                <AppDropdownItem :slug="{ name: 'heating' }"
+                  >Heating</AppDropdownItem
+                >
+                <AppDropdownItem :slug="{ name: 'maintenance' }"
+                  >Maintenance</AppDropdownItem
+                >
+                <AppDropdownItem :slug="{ name: 'otherServices' }"
+                  >Other Services</AppDropdownItem
+                >
               </AppDropdownContent>
             </AppDropdown>
           </li>
           <li class="nav-item">
             <AppDropdown>
-              <a href="javascript: void(0);" class="nav-link" slot="toggler"><!--v-scroll-to="{ el:'#about', offset: -2}"-->About Us</a>
+              <a href="javascript: void(0);" class="nav-link" slot="toggler"
+                ><!--v-scroll-to="{ el:'#about', offset: -2}"-->About Us</a
+              >
               <AppDropdownContent>
-                <AppDropdownItem :slug="{name: 'ourStory'}">Our Story</AppDropdownItem>
-                <AppDropdownItem :slug="{name: 'contactUs'}">Contact Us</AppDropdownItem>
+                <AppDropdownItem :slug="{ name: 'ourStory' }"
+                  >Our Story</AppDropdownItem
+                >
+                <AppDropdownItem :slug="{ name: 'contactUs' }"
+                  >Contact Us</AppDropdownItem
+                >
               </AppDropdownContent>
             </AppDropdown>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" class="nav-link">
               <!--v-scroll-to="{ el:'#testimonials', offset: -1}"-->
-              <router-link :to="{name: 'testimonials'}">
+              <router-link :to="{ name: 'testimonials' }">
                 Testimonials
               </router-link>
             </a>
@@ -119,7 +139,7 @@ export default {
           <li class="nav-item">
             <a href="javascript: void(0);" class="nav-link">
               <!--v-scroll-to="{ el:'#contact', offset:-50}"-->
-              <router-link :to="{name: 'contactUs'}">
+              <router-link :to="{ name: 'contactUs' }">
                 Contact Us
               </router-link>
             </a>
@@ -162,15 +182,27 @@ export default {
               placeholder="Password"
             />
           </div>
-          <a href="javascript: void(0);" class="float-right text-muted font-size-15">Forgot Password.?</a>
+          <a
+            href="javascript: void(0);"
+            class="float-right text-muted font-size-15"
+            >Forgot Password.?</a
+          >
           <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="customCheck1" />
-            <label class="custom-control-label font-size-15" for="customCheck1">Remember Me</label>
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="customCheck1"
+            />
+            <label class="custom-control-label font-size-15" for="customCheck1"
+              >Remember Me</label
+            >
           </div>
           <div class="text-center mt-4">
             <button type="submit" class="btn btn-primary">
               Login
-              <arrow-right-circle-icon class="icon-size-15 icon ml-1"></arrow-right-circle-icon>
+              <arrow-right-circle-icon
+                class="icon-size-15 icon ml-1"
+              ></arrow-right-circle-icon>
             </button>
           </div>
         </form>
@@ -181,22 +213,34 @@ export default {
         <div class="text-center">
           <ul class="list-inline mt-2 mb-3">
             <li class="list-inline-item mr-3">
-              <a href="javascript: void(0);" class="login-social-icon icon-primary">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-primary"
+              >
                 <facebook-icon class="icon-xs"></facebook-icon>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="javascript: void(0);" class="login-social-icon icon-info">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-info"
+              >
                 <twitter-icon class="icon-xs"></twitter-icon>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="javascript: void(0);" class="login-social-icon icon-danger">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-danger"
+              >
                 <instagram-icon class="icon-xs"></instagram-icon>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="javascript: void(0);" class="login-social-icon icon-success">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-success"
+              >
                 <linkedin-icon class="icon-xs"></linkedin-icon>
               </a>
             </li>
@@ -245,15 +289,27 @@ export default {
               placeholder="Password"
             />
           </div>
-          <a href="javascript: void(0);" class="float-right text-muted font-size-15">Forgot Password.?</a>
+          <a
+            href="javascript: void(0);"
+            class="float-right text-muted font-size-15"
+            >Forgot Password.?</a
+          >
           <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="customCheck2" />
-            <label class="custom-control-label font-size-15" for="customCheck2">Remember Me</label>
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="customCheck2"
+            />
+            <label class="custom-control-label font-size-15" for="customCheck2"
+              >Remember Me</label
+            >
           </div>
           <div class="text-center mt-4">
             <button type="submit" class="btn btn-primary">
               Register
-              <arrow-right-circle-icon class="icon-size-15 icon ml-1"></arrow-right-circle-icon>
+              <arrow-right-circle-icon
+                class="icon-size-15 icon ml-1"
+              ></arrow-right-circle-icon>
             </button>
           </div>
         </form>
@@ -264,22 +320,34 @@ export default {
         <div class="text-center">
           <ul class="list-inline mt-2 mb-3">
             <li class="list-inline-item mr-3">
-              <a href="javascript: void(0);" class="login-social-icon icon-primary">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-primary"
+              >
                 <facebook-icon class="icon-xs"></facebook-icon>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="javascript: void(0);" class="login-social-icon icon-info">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-info"
+              >
                 <twitter-icon class="icon-xs"></twitter-icon>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="javascript: void(0);" class="login-social-icon icon-danger">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-danger"
+              >
                 <instagram-icon class="icon-xs"></instagram-icon>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="javascript: void(0);" class="login-social-icon icon-success">
+              <a
+                href="javascript: void(0);"
+                class="login-social-icon icon-success"
+              >
                 <linkedin-icon class="icon-xs"></linkedin-icon>
               </a>
             </li>
@@ -294,4 +362,3 @@ export default {
   </nav>
   <!-- Navbar End -->
 </template>
-
