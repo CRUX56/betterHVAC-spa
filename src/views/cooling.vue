@@ -145,11 +145,28 @@ export default {
                 choosing Better HVAC for all your air conditioning needs.
               </p>
             </div>
-            <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-6 col-lg-6 align-items-center">
               <img
-                src="../assets/images/about-us-aircon.jpg"
-                alt="Cooling Air Conditioning"
+                src="../assets/images/cooling-ac-by-porch.jpg"
+                alt="Cooling AC By Porch"
+                style="width: 100%, height: auto"
               />
+              <br />
+              <br />
+              <img
+                src="../assets/images/Cooling---AC-with-Flower.jpg"
+                alt="cooling ac with flower"
+                style="width: 100%, height: auto"
+              />
+              <br />
+              <br />
+              <img
+                src="../assets/images/cooling-unit-near-plants.jpg"
+                alt="cooling unit near plants"
+                style="width: 100%, height: auto"
+              />
+              <br />
+              <br />
             </div>
           </div>
           <div class="row align-items-left">

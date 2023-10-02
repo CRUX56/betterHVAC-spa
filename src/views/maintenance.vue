@@ -96,7 +96,7 @@ export default {
       <section class="section" id="main-content">
         <div class="container">
           <div class="row align-items-left">
-            <div class="col-xl-12 col-lg-12">
+            <div class="col-xl-6 col-lg-6">
               <h3>HVAC Maintenance</h3>
               <!--
                 <p class="text-muted mb-4">
@@ -159,6 +159,33 @@ export default {
                 service that will exceed your expectations, provide lasting
                 value for your investment, and ensures year-round comfort
               </p>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+              <img
+                src="../assets/images/prev-maintenance-2.jpg"
+                alt="Preventative Maintance 2"
+                style="width: 100%; height: auto"
+              />
+              <br />
+              <br />
+              <img
+                src="../assets/images/prev-maintenance-3.jpg"
+                alt="Preventative Maintenance 3"
+                style="width: 100%; height: auto"
+              />
+              <br />
+              <br />
+              <img
+                src="../assets/images/mtnce-filter.jpg"
+                alt="Maintenance Filter"
+                style="width: 100%; height: auto"
+              />
+              <br />
+              <br />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12 col-lg-12">
               <contentAccordion
                 :service-accordion-array="serviceAccordionArray"
               ></contentAccordion>

@@ -143,10 +143,26 @@ export default {
             </div>
             <div class="col-xl-6 col-lg-6">
               <img
-                src="../assets/images/services-hvac-system.jpg"
-                alt="Hvac System"
-                class="width: 100%; height: auto;"
+                src="../assets/images/Heating - 3 Units.jpg"
+                alt="heating 3 units"
+                style="width: 100%; height: auto"
               />
+              <br />
+              <br />
+              <img
+                src="../assets/images/heating-gas-furnance.jpg"
+                alt="Heating - Gas Furnance"
+                style="width: 100%; height: auto"
+              />
+              <br />
+              <br />
+              <img
+                src="../assets/images/services-hvac-system.png"
+                alt="Hvac System"
+                style="width: 100%; height: auto"
+              />
+              <br />
+              <br />
             </div>
           </div>
           <div class="row align-items-left">
