@@ -200,7 +200,7 @@ export default {
                   class="star-entity"
                   >&#9733;&#9733;&#9733;&#9733;&#9733;</span
                 ><br />
-                - <strong>J. S.& C. S., <em>New London, NC</em></strong>
+                - <strong>J. S. & C. S., <em>New London, NC</em></strong>
               </p>
             </div>
             <div>
@@ -213,7 +213,7 @@ export default {
                 for all of our HVAC needs.<br /><span class="star-entity"
                   >&#9733;&#9733;&#9733;&#9733;&#9733;</span
                 ><br />
-                - <strong>J. M., <em>Charlotte, NC</em></strong>
+                - <strong>J. M., <em>Charlotte Midtown, NC</em></strong>
               </p>
             </div>
             <div>
@@ -237,7 +237,7 @@ export default {
                 service to others.<br /><span class="star-entity"
                   >&#9733;&#9733;&#9733;&#9733;&#9733;</span
                 ><br />
-                - <strong>S. L., <em>Charlotte, NC</em></strong>
+                - <strong>S. L., <em>Charlotte University, NC</em></strong>
               </p>
             </div>
             <div>

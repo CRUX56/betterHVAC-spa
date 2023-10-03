@@ -107,14 +107,14 @@ export default {
           rating: 5,
         },
         {
-          title: "J. S.& C. S. , New London, NC",
+          title: "J. S. & C. S. , New London, NC",
           content:
             "We just moved to the area and needed the AC serviced right way. Jason and his team were very responsive to our request on a very hot day. The cost was reasonable. We highly recommend their services and eagerly give this company a 5/5 star rating.",
           isOpen: true,
           rating: 5,
         },
         {
-          title: "J. M., Charlotte, NC",
+          title: "J. M., Charlotte Midtown, NC",
           content:
             "We found ourselves in need of a totally new HVAC system. Especially needed was a new AC system. Within a very short period of time, Jason and his team performed High Quality work to get us back to air comfort. The Better HVAC team were professional and a pleasure to work with. We will be using them for all of our HVAC needs.",
           isOpen: true,
@@ -128,7 +128,7 @@ export default {
           rating: 5,
         },
         {
-          title: "S. L., Charlotte, NC",
+          title: "S. L., Charlotte University, NC",
           content:
             "High Quality service, techs professional and friendly, Cost of service was reasonable. Amount of time to complete work was acceptable. Voted 5/5 stars and would definitely recommend their service to others.",
           isOpen: true,
